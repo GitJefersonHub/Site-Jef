@@ -188,7 +188,7 @@ h2{
 h3{
   padding-left: 1%;
   text-indent: 10%;
-  font-size: 290%;
+  font-size: 380%;
   color: black;
 }
 
@@ -351,7 +351,7 @@ p{
   text-align: justify;
   text-indent: 10%;
   font-size: 380%;
-  color: black;
+  color: blue;
   width: 100%;
 }
 p1{
@@ -362,9 +362,8 @@ p1{
   hyphens: auto;
   padding-left: 1%;
   padding-right: 2%;
-  text-indent: 10%;
   font-size: 380%;
-  color: blue;
+  color: green;
   width: 100%;
 }
 p2{
@@ -389,7 +388,7 @@ p2{
 }
 .colunaser {
   float: left;
-  color: blue;
+  color: red;
 }
 .colser1 {
   /* Para Android e iOS */

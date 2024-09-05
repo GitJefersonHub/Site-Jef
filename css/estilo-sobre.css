@@ -32,10 +32,9 @@
 @media only screen and (orientation: portrait)(min-width: 390px) and (max-width: 844px) {
   .containersobre {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 396%;
-    padding: 10px;
+    flex-direction; column;
+    align-items; center;
+    
   }
 }
 /* Para telas pequenas (LG Optimus L70, 384px a 640px) */

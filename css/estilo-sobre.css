@@ -29,10 +29,9 @@
 }
 
 
-/* Para telas pequenas (iPhone 12 Pro, S7, A9 PRO, J5 390px a 844px) */
-@media (orientation: portrait) (min-width: 390px) and (max-width: 844px) {
 
-  /* Estilos para telas verticais */
+/* Para telas pequenas (iPhone 12 Pro, S7, A9 PRO, J5 390px a 844px) */
+@media only screen and (orientation: portrait)(min-width: 390px) and (max-width: 844px) {
   .containersobre {
     width: 396%;
     padding: 10px;

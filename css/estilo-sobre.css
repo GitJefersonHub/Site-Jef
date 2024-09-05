@@ -33,9 +33,6 @@
 @media only screen and (min-width: 390px) and (max-width: 844px) {
 @media (orientation: portrait) {
   /* Estilos para telas verticais */
-  body {
-      font-size: 16px;
-  }
   .containersobre {
     width: 396%;
     padding: 10px;

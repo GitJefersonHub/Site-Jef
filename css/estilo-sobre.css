@@ -28,15 +28,14 @@
   }
 }
 
-@media (orientation: portrait) {
-  /* Estilos para telas verticais */
-  body {
-      font-size: 16px;
-  }
+
 }
 
 /* Para telas pequenas (iPhone 12 Pro, S7, A9 PRO, J5 390px a 844px) */
 @media only screen and (min-width: 390px) and (max-width: 844px) {
+@media (orientation: portrait) {
+  /* Estilos para telas verticais */
+ 
   .containersobre {
     width: 396%;
     padding: 10px;

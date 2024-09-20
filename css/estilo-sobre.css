@@ -9,7 +9,7 @@
 /* Estilos para o BODY */
 body {
   background-color: rgb(71, 39, 39);
-  width: 148%;
+  width: 96%;
   justify-content: center;
 }
 
@@ -50,23 +50,23 @@ padding-right: 2%;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 180%;
+  font-size: 120%;
 }
 h2{
-  font-size: 160%;
+  font-size: 110%;
 }
 h3{
-  font-size: 150%;
+  font-size: 100%;
   color: aqua;
   text-align: center;
 }
 h4{
-  font-size: 140%;
+  font-size: 90%;
   color: blueviolet;
   text-align: center;
 }
 h5{
-  font-size: 120%;
+  font-size: 80%;
   color: whitesmoke;
   padding-left: 1%;
   padding-right: 2%;
@@ -97,7 +97,7 @@ p{
   padding-right: 3%;
   text-align: justify;
   text-indent: 8%;
-  font-size: 160%;
+  font-size: 120%;
   color: gold;
   width: 100%;
 }
@@ -109,7 +109,7 @@ p1{
   hyphens: auto;
   padding-left: 1%;
   padding-right: 2%;
-  font-size: 160%;
+  font-size: 120%;
   color: greenyellow;
   width: 100%;
 }
@@ -133,7 +133,7 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  font-size: 150%;
+  font-size: 100%;
   width: 49%;
   text-align: left;
   color: white;
@@ -145,7 +145,7 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  font-size: 150%;
+  font-size: 100%;
   width: 49%;
   text-align: left;
   color: white;
@@ -159,7 +159,7 @@ p1{
   -ms-hyphens: auto;
   hyphens: auto;
   padding-left: 10%;
-  font-size: 160%;
+  font-size: 120%;
   color: silver;
   width: 88%;
 }
@@ -176,7 +176,7 @@ p1{
   font-size: 200%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 93%;
+  width: 82%;
 }
 .btn-estilizado2 {
   background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
@@ -189,7 +189,7 @@ p1{
   font-size: 200%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 93%;
+  width: 82%;
 }
 .btn-estilizado3 {
   background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
@@ -202,7 +202,7 @@ p1{
   font-size: 200%; /* Tamanho da fonte */
   margin: auto;
   cursor: pointer; /* Cursor de mão ao passar o mouse */
-  width: 93%;
+  width: 82%;
 }
 
 /* Estilos para RODAPÉ */
@@ -212,7 +212,7 @@ footer {
   text-align: center;
   color: white;
   padding: 1%;
-  font-size: 160%;
+  font-size: 100%;
   overflow: auto;
-  width: 103%;
+  width: 94%;
 } 

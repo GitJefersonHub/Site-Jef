@@ -9,7 +9,6 @@
   }
 }
  
-
 /* Estilos para o BODY */
 body {
   flex-direction: column;
@@ -72,7 +71,7 @@ h4{
   text-align: center;
 }
 h5{
-  font-size: 70%;
+  font-size: 20%;
   color: whitesmoke;
   padding-left: 1%;
   padding-right: 2%;
@@ -99,13 +98,13 @@ p{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
   text-align: justify;
   text-indent: 8%;
   font-size: 110%;
   color: gold;
-  width: 100%;
+  width: 98%;
 }
 p1{
   /* Para Android e iOS */
@@ -113,11 +112,11 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
   font-size: 110%;
   color: greenyellow;
-  width: 100%;
+  width: 98%;
 }
 
 /* Estilos para COLUNAS */
@@ -155,7 +154,7 @@ p1{
   width: 50%;
   text-align: left;
   color: white;
-  padding-right: 0%;
+  padding-right: 2%;
 }
 
 .colsob3 {

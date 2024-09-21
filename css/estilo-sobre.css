@@ -56,23 +56,23 @@ padding-right: 2%;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 95%;
-}
-h2{
   font-size: 90%;
 }
-h3{
+h2{
   font-size: 85%;
+}
+h3{
+  font-size: 80%;
   color: aqua;
   text-align: center;
 }
 h4{
-  font-size: 80%;
+  font-size: 75%;
   color: blueviolet;
   text-align: center;
 }
 h5{
-  font-size: 75%;
+  font-size: 70%;
   color: whitesmoke;
   padding-left: 1%;
   padding-right: 2%;

@@ -98,10 +98,9 @@ h5{
   width: 100%;
   overflow: auto
 
-}
+}/* Para Android e iOS */
 .colunaimgser {
   float: left;
-  /* Para Android e iOS */
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
@@ -113,7 +112,7 @@ h5{
   background-image: url('   ');
   .logoSFV {
   padding-left: 0%;
-  padding-right: 8px;
+  padding-right: 2px;
   width: 28%;
   height: 28%;
   float:inline-start;
@@ -123,8 +122,8 @@ h5{
 .ser {
   background-image: url('   ');
   .logodivulg {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
   width: 17%;
   height: 17%;
   float:left;
@@ -134,8 +133,8 @@ h5{
 .ser {
   background-image: url('   ');
   .logopagamentos {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
   width: 17%;
   height: 17%;
   float: left;
@@ -145,8 +144,8 @@ h5{
 .ser {
   background-image: url('   ');
   .logoaçai {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
   width: 17%;
   height: 17%;
   float: left;
@@ -157,8 +156,8 @@ h5{
 .ser {
   background-image: url('   ');
   .logoescolatec {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
   width: 17%;
   height: 17%;
   float: left;
@@ -169,7 +168,7 @@ h5{
   background-image: url('   ');
   .logobarbearia {
   padding-left: 0%;
-  padding-right: 8px;
+  padding-right: 2px;
   width: 17%;
   height: 17%;
   float: left;
@@ -179,8 +178,8 @@ h5{
 .ser {
   background-image: url('   ');
   .logocaveira {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
   width: 17%;
   height: 17%;
   float: left;
@@ -191,7 +190,7 @@ h5{
   background-image: url('   ');
   .logoauxiliar {
   padding-left: 0px;
-  padding-right: 8px;
+  padding-right: 2px;
   width: 17%;
   height: 17%;
   float: left;
@@ -201,8 +200,8 @@ h5{
 .ser {
   background-image: url('   ');
   .kitbanheiroporta {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
   width: 32%;
   float: left;
   }
@@ -211,8 +210,8 @@ h5{
 .ser {
   background-image: url('   ');
   .kitbanheirosanitario {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
   width: 32%;
   float: left;
   }
@@ -220,8 +219,8 @@ h5{
 .ser {
   background-image: url('   ');
   .kitsilencio {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 2px;
+  padding-right: 2px;
   width: 32%;
   float: left;
   }
@@ -297,7 +296,6 @@ p2{
 .colunaser {
   float: left;
   color: black;
-  width: 100%;
 }
 .colser1 {
   /* Para Android e iOS */
@@ -306,22 +304,9 @@ p2{
   -ms-hyphens: auto;
   hyphens: auto;
   text-indent: 1%;
-  padding-left: 10%;
-  font-size: 100%;
+  padding-left: 0%;
+  font-size: 86%;
   width: 98%;
-  text-align: left;
-  color: black;
-}
-.colser2 {
-  /* Para Android e iOS */
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  text-indent: 1%;
-  padding-left: 11%;
-  font-size: 100%;
-  width: 90%;
   text-align: left;
 }
 

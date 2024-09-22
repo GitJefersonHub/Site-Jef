@@ -6,19 +6,37 @@
   }
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  .containerser {
-    width: 60%;
+  .containersobre {
+    width: 96%;
   }
 }
 /* Desktop */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .containerser {
-    width: 130%;
+  .containersobre {
+    width: 97%;
+    h1{
+      font-size: 250%;
+    }
+    h2{
+      font-size: 200%;
+    }
+    h3{
+      font-size: 200%;
+    }
+    h4{
+      font-size: 180%;
+    }
+    p{
+      font-size: 180%;
+    }
+    p1{
+      font-size: 180%;
+    }
   }
 }
 
 /* Estilos para o BODY */
-body {
+body.sobre {
   flex-direction: column;
   align-items: stretch;
   background-color: rgb(16, 18, 56);

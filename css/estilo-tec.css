@@ -1,20 +1,19 @@
 /* Celular*/
 @media (max-width: 480px) {
-  .containersobre {
+  .containertec {
     width: 96%;
     }
   }
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  .containerser {
-    width: 80%;
+  .containertec {
+    width: 96%;
   }
 }
 /* Desktop */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .containerser {
-    width: 130%;
-    padding: 30px;
+  .containertec {
+    width: 97%;
   }
 }
 /* Estilos para o BODY */
@@ -33,7 +32,7 @@ body.tec {
   background-color: rgb(248, 44, 44);
   padding-right: 2%;
   overflow: auto;
-  width: 97%;
+  width: 100%;
 }
 .logo {
   color: white;

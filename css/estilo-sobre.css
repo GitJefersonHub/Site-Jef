@@ -15,7 +15,7 @@ body {
   align-items: stretch;
   background-color: rgb(19, 20, 41);
   justify-content: center;
-  width: 100%;
+  width: 98%;
   
 }
 
@@ -38,7 +38,7 @@ body {
   list-style: none;
   margin: auto;
   padding-left: 2%;
-  padding-right: 2%;
+  padding-right: 0%;
   display: flex;
 }
 .menu li { 
@@ -56,19 +56,19 @@ padding-right: 2%;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 85%;
+  font-size: 90%;
 }
 h2{
-  font-size: 80%;
+  font-size: 85%;
 }
 h3{
-  font-size: 75%;
+  font-size: 85%;
   color: aqua;
   text-align: center;
 }
 h4{
-  font-size: 70%;
-  color: blueviolet;
+  font-size: 85%;
+  color: rgb(135, 58, 207);
   text-align: center;
 }
 h5{
@@ -79,15 +79,13 @@ h5{
   text-indent: 10%;
 }
 
-
-
 /* Estilos para IMAGENS */
 .sobre {
   background-image: url('   ');
   .sobre {
-  width: 44%;
-  height: 44%;
-  padding-left: 28%;
+  width: 48%;
+  height: 48%;
+  padding-left: 26%;
   }
 }
 
@@ -103,7 +101,7 @@ p{
   padding-right: 2%;
   text-align: justify;
   text-indent: 8%;
-  font-size: 110%;
+  font-size: 116%;
   color: gold;
   width: 98%;
 }
@@ -115,7 +113,7 @@ p1{
   hyphens: auto;
   padding-left: 2%;
   padding-right: 2%;
-  font-size: 110%;
+  font-size: 116%;
   color: greenyellow;
   width: 98%;
 }
@@ -139,7 +137,7 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  font-size: 68%;
+  font-size: 58%;
   width: 48%;
   text-align: left;
   color: white;
@@ -151,7 +149,7 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  font-size: 68%;
+  font-size: 58%;
   width: 48%;
   text-align: left;
   color: white;

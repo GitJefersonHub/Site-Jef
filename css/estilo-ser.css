@@ -1,25 +1,21 @@
-/* Estilos para dispositivos com largura máxima de 480px */
+/* Celular*/
 @media (max-width: 480px) {
   .containersobre {
     width: 96%;
-    padding: 0px;
-  
     }
   }
 
-/* Para telas grandes (iPad Mini 768px a 1024px) */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .containerser {
-    width: 170%;
-    padding: 30px;
+    width: 100%;
   }
 }
 
-/* Para telas grandes (desktops, 1025px a 1200px) */
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+/* Desktop */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .containerser {
     width: 130%;
-    padding: 30px;
   }
 }
 
@@ -38,7 +34,7 @@ body.ser {
   background-color: rgb(248, 44, 44);
   padding-right: 2%;
   overflow: auto;
-  width: 100%;
+  width: 98%;
 }
 .logo {
   color: white;
@@ -306,7 +302,7 @@ p2{
   text-indent: 1%;
   padding-left: 0%;
   font-size: 86%;
-  width: 98%;
+  width: 96%;
   text-align: left;
 }
 
@@ -363,5 +359,5 @@ footer {
   padding: 1%;
   font-size: 80%;
   overflow: auto;
-  width: 98%;
+  width: 97%;
 }

@@ -1,12 +1,22 @@
-/* Estilos para dispositivos com largura máxima de 480px */
+/* Celular*/
 @media (max-width: 480px) {
-.containertec {
-  width: 96%;
-  padding: 0px;
-
+  .containersobre {
+    width: 96%;
+    }
+  }
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .containerser {
+    width: 80%;
   }
 }
-
+/* Desktop */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .containerser {
+    width: 130%;
+    padding: 30px;
+  }
+}
 /* Estilos para o BODY */
 body.tec {
   flex-direction: column;
@@ -23,7 +33,7 @@ body.tec {
   background-color: rgb(248, 44, 44);
   padding-right: 2%;
   overflow: auto;
-  width: 100%;
+  width: 97%;
 }
 .logo {
   color: white;
@@ -108,58 +118,6 @@ p1{
   width: 98%;
 }
 
-
-/* Estilos para COLUNAS */
-/* grid 100%*/
-.linha {
-  width: 100%;
-  margin: auto;
-  overflow: auto;
-  padding: 0% 0;
-}
-.colunatec {
-
-  float: left;
-  color: white;
-}
-.coltec1 {
-  /* Para Android e iOS */
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  font-size: 220%;
-  width: 49%;
-  text-align: left;
-  color: white;
-  padding-left: 2%;
-}
-.coltec2 {
-/* Para Android e iOS */
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  font-size: 220%;
-  width: 49%;
-  text-align: left;
-  color: white;
-  padding-right: 0%;
-}
-
-.coltec3 {
-/* Para Android e iOS */
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  padding-left: 10%;
-  font-size: 360%;
-  color: silver;
-  width: 88%;
-}
-
-
 /* Estilos para BOTÕES */
 .btn-estilizado {
   background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
@@ -210,5 +168,5 @@ footer {
   padding: 1%;
   font-size: 80%;
   overflow: auto;
-  width: 98%;
+  width: 97%;
 }  

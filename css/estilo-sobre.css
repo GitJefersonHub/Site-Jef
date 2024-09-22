@@ -59,7 +59,7 @@ h1{
   font-size: 90%;
 }
 h2{
-  font-size: 85%;
+  font-size: 83%;
 }
 h3{
   font-size: 85%;
@@ -101,7 +101,7 @@ p{
   padding-right: 2%;
   text-align: justify;
   text-indent: 8%;
-  font-size: 116%;
+  font-size: 114%;
   color: gold;
   width: 98%;
 }
@@ -113,7 +113,7 @@ p1{
   hyphens: auto;
   padding-left: 2%;
   padding-right: 2%;
-  font-size: 116%;
+  font-size: 114%;
   color: greenyellow;
   width: 98%;
 }
@@ -162,9 +162,9 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  font-size: 90%;
+  font-size: 88%;
   color: silver;
-  width: 96%;
+  width: 97%;
   text-indent: 1%;
 }
 

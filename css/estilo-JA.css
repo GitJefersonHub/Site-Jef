@@ -6,13 +6,37 @@
   }
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  .containersobre {
+  .containerJA {
     width: 96%;
+    h1{
+      font-size: 130%;
+    }
+    h2{
+      font-size: 120;
+    }
+    h3{
+      font-size: 110%;
+    }
+    h4{
+      font-size: 100%;
+    }
+    h5{
+      font-size: 90%;
+    }
+    p{
+      font-size: 160%;
+    }
+    p1{
+      font-size: 160%;
+    }
+    p2{
+      font-size: 160%;
+    }
   }
 }
 /* Desktop */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .containersobre {
+  .containerJA {
     width: 97%;
     h1{
       font-size: 250%;

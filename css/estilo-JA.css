@@ -68,8 +68,8 @@ body.JA {
   display: flex;
 }
 .menu li { 
-padding-left: 0%;
-padding-right: 0%;
+padding-left: 2%;
+padding-right: 2%;
 }
 .menu li a {
   text-decoration: none;
@@ -82,19 +82,19 @@ padding-right: 0%;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 160%;
+  font-size: 120%;
   color: white;
 }
 h2{
-  font-size: 140%;
+  font-size: 110%;
 }
 h3{
-  font-size: 120%;
+  font-size: 100%;
   color: aqua;
   text-align: center;
 }
 h4{
-  font-size: 110%;
+  font-size: 90%;
   color: blueviolet;
   text-align: center;
 }
@@ -201,7 +201,7 @@ p1{
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  font-size: 96%;
+  font-size: 98%;
   color: silver;
   width: 100%;
   text-indent: 0%;

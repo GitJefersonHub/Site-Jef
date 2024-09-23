@@ -29,7 +29,7 @@ body.tec {
 /* Estilos para o menu de navegação */
 .navbar {
   display: flex;
-  background-color: rgb(248, 44, 44);
+  background-color: blueviolet;
   padding-right: 2%;
   overflow: auto;
   width: 100%;
@@ -37,15 +37,15 @@ body.tec {
 .logo {
   color: white;
   font-style: italic;
-  padding-left: 2%;
-  padding-right: 0%;
-  text-decoration: underline;
+  padding-left: 3%;
+  padding-right: 3%;
+  background-color: green;
 }
 .menu {
   list-style: none;
   margin: auto;
-  padding-left: 2%;
-  padding-right: 0%;
+  padding-left: 1%;
+  padding-right: 1%;
   display: flex;
 }
 .menu li { 
@@ -63,23 +63,24 @@ padding-right: 2%;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 90%;
+  font-size: 100%;
+  color: white;
 }
 h2{
-  font-size: 83%;
+  font-size: 95%;
 }
 h3{
-  font-size: 85%;
+  font-size: 90%;
   color: aqua;
   text-align: center;
 }
 h4{
   font-size: 85%;
-  color: rgb(135, 58, 207);
+  color: blueviolet;
   text-align: center;
 }
 h5{
-  font-size: 20%;
+  font-size: 80%;
   color: whitesmoke;
   padding-left: 1%;
   padding-right: 2%;
@@ -100,7 +101,7 @@ p{
   text-indent: 10%;
   font-size: 112%;
   color: silver;
-  width: 98%;
+  width: 100%;
   
 }
 p1{
@@ -114,7 +115,7 @@ p1{
   text-indent: 10%;
   font-size: 112%;
   color: gold;
-  width: 98%;
+  width: 100%;
 }
 
 /* Estilos para BOTÕES */
@@ -167,5 +168,5 @@ footer {
   padding: 1%;
   font-size: 80%;
   overflow: auto;
-  width: 97%;
+  width: 100%;
 }  

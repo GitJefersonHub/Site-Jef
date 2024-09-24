@@ -4,6 +4,7 @@
     width: 96%;
     }
   }
+
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .containertec {
@@ -18,39 +19,17 @@
 }
 /* Estilos para o BODY */
 body.tec {
-  flex-direction: column;
-  align-items: stretch;
   background-color: black;
-  justify-content: center;
-  width: 98%;
 }
 
 
 /* Estilos para o menu de navegação */
 .navbar {
-  display: flex;
   background-color: blueviolet;
-  padding-right: 2%;
-  overflow: auto;
-  width: 100%;
 }
 .logo {
   color: white;
-  font-style: italic;
-  padding-left: 3%;
-  padding-right: 3%;
   background-color: green;
-}
-.menu {
-  list-style: none;
-  margin: auto;
-  padding-left: 1%;
-  padding-right: 1%;
-  display: flex;
-}
-.menu li { 
-padding-left: 2%;
-padding-right: 2%;
 }
 .menu li a {
   text-decoration: none;
@@ -63,24 +42,17 @@ padding-right: 2%;
   font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-  font-size: 100%;
   color: white;
 }
-h2{
-  font-size: 95%;
-}
 h3{
-  font-size: 90%;
   color: aqua;
   text-align: center;
 }
 h4{
-  font-size: 85%;
   color: blueviolet;
   text-align: center;
 }
 h5{
-  font-size: 80%;
   color: whitesmoke;
   padding-left: 1%;
   padding-right: 2%;
@@ -90,31 +62,9 @@ h5{
 
 /* Estilos para PARAGRAFOS */
 p{
-/* Para Android e iOS */
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  padding-left: 1%;
-  padding-right: 2%;
-  text-align: justify;
-  text-indent: 10%;
-  font-size: 112%;
   color: silver;
-  width: 100%;
-  
 }
 p1{
-/* Para Android e iOS */
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  padding-left: 1%;
-  padding-right: 2%;
-  text-indent: 10%;
-  font-size: 112%;
-  color: gold;
   width: 100%;
 }
 
@@ -158,15 +108,4 @@ p1{
   cursor: pointer; /* Cursor de mão ao passar o mouse */
   width: 81%;
 }
-
-/* Estilos para RODAPÉ */
-footer {
-  display:block;
-  background-color: blue;
-  text-align: center;
-  color: white;
-  padding: 1%;
-  font-size: 80%;
-  overflow: auto;
-  width: 100%;
-}  
+  

@@ -1,22 +1,3 @@
-/* Celular*/
-@media (max-width: 480px) {
-  .containerser {
-    width: 96%;
-    }
-  }
-
-/* Tablet */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-  .containerser {
-    width: 96%;
-  }
-}
-/* Desktop */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .containerser {
-    width: 97%;
-  }
-}
 
 /* Estilos para o BODY */
 body.ser {

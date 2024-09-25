@@ -1,5 +1,5 @@
-/* Celular*/
-  @media (max-width: 480px) {
+/* Celular peq*/
+@media (max-width: 480px) {
   body{
     flex-direction: column;
     align-items: stretch;
@@ -33,19 +33,19 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   h1{
-    font-size: 110%;
-  }
-  h2{
     font-size: 105%;
   }
-  h3{
+  h2{
     font-size: 100%;
   }
-  h4{
+  h3{
     font-size: 95%;
   }
-  h5{
+  h4{
     font-size: 90%;
+  }
+  h5{
+    font-size: 85%;
   }
 
   p{
@@ -120,7 +120,7 @@
     text-align: left;
     padding-right: 0%;
     }
-  
+
   .colJA3 {
   /* Para Android e iOS */
     -webkit-hyphens: auto;

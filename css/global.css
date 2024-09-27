@@ -33,19 +33,19 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   h1{
-    font-size: 103%;
+    font-size: 102%;
   }
   h2{
-    font-size: 98%;
+    font-size: 97%;
   }
   h3{
-    font-size: 93%;
+    font-size: 120%;
   }
   h4{
-    font-size: 88%;
+    font-size: 120%;
   }
   h5{
-    font-size: 83%;
+    font-size: 120%;
   }
 
   p{
@@ -58,7 +58,7 @@
     padding-right: 1%;
     text-align: justify;
     text-indent: 10%;
-    font-size: 114%;
+    font-size: 115%;
     width: 100%;
   }
 
@@ -70,7 +70,7 @@
     hyphens: auto;
     padding-left: 1%;
     padding-right: 1%;
-    font-size: 114%;
+    font-size: 115%;
     width: 100%;
   }
 
@@ -83,7 +83,7 @@
     padding-left: 1%;
     padding-right: 1%;
     text-indent: 10%;
-    font-size: 114%;
+    font-size: 115%;
     width: 100%;
   }
 
@@ -127,10 +127,10 @@
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-    font-size: 96%;
-    width: 97%;
+    font-size: 104%;
+    width: 96%;
     text-indent: 1%;
-    padding-left: 3%;
+    padding-left: 4%;
   }
     
   .colJA4 {
@@ -139,10 +139,10 @@
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-    font-size: 97%;
-    width: 94%;
+    font-size: 104%;
+    width: 96%;
     text-indent: 0%;
-    padding-left: 3%;
+    padding-left: 4%;
   }
 
   /* Estilos para BOTÕES */
@@ -233,9 +233,9 @@
     -ms-hyphens: auto;
     hyphens: auto;
     text-indent: 1%;
-    padding-left: 0%;
+    padding-left: 4%;
     font-size: 100%;
-    width: 100%;
+    width: 96%;
     text-align: left;
   }
 

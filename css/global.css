@@ -128,8 +128,9 @@
     -ms-hyphens: auto;
     hyphens: auto;
     font-size: 96%;
-    width: 100%;
+    width: 97%;
     text-indent: 1%;
+    padding-left: 3%;
   }
     
   .colJA4 {
@@ -138,9 +139,10 @@
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-    font-size: 96%;
-    width: 100%;
+    font-size: 97%;
+    width: 94%;
     text-indent: 0%;
+    padding-left: 3%;
   }
 
   /* Estilos para BOTÕES */
@@ -381,8 +383,9 @@
       -ms-hyphens: auto;
       hyphens: auto;
       font-size: 130%;
-      width: 100%;
+      width: 92%;
       text-indent: 1%;
+      padding-left: 8%;
     }
       
     .colJA4 {
@@ -392,8 +395,9 @@
       -ms-hyphens: auto;
       hyphens: auto;
       font-size: 130%;
-      width: 100%;
+      width: 92%;
       text-indent: 0%;
+      padding-left: 8%;
     }
 
     /* Estilos para BOTÕES */
@@ -633,9 +637,10 @@
           -moz-hyphens: auto;
           -ms-hyphens: auto;
           hyphens: auto;
-          font-size: 200%;
-          width: 100%;
+          font-size: 208%;
+          width: 90%;
           text-indent: 1%;
+          padding-left: 10%;
         }
           
         .colJA4 {
@@ -644,9 +649,10 @@
           -moz-hyphens: auto;
           -ms-hyphens: auto;
           hyphens: auto;
-          font-size: 200%;
-          width: 100%;
+          font-size: 209%;
+          width: 90%;
           text-indent: 0%;
+          padding-left: 10%;
         }
     
         /* Estilos para BOTÕES */
@@ -738,7 +744,7 @@
           hyphens: auto;
           text-indent: 1%;
           padding-left: 10%;
-          font-size: 220%;
+          font-size: 209%;
           width: 90%;
           text-align: left;
         }
@@ -755,3 +761,515 @@
           width: 100%;
         }
       }
+
+
+        /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */
+
+        @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+          body{
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: center;
+            width: 97%;
+          }
+          .navbar {
+            display: flex;
+            padding-right: 2%;
+            overflow: auto;
+            width: 100%;
+          }
+          .logo {
+            font-style: italic;
+            padding-left: 3%;
+            padding-right: 3%;
+          }
+          .menu {
+            list-style: none;
+            margin: auto;
+            padding-left: 1%;
+            padding-right: 1%;
+            display: flex;
+          }
+          .menu li { 
+            padding-left: 2%;
+            padding-right: 2%;
+          }
+      
+          .font {
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          h1{
+            font-size: 360%;
+          }
+          h2{
+            font-size: 350%;
+          }
+          h3{
+            font-size: 320%;
+          }
+          h4{
+            font-size: 310%;
+          }
+          h5{
+            font-size: 300%;
+          }
+      
+          p{
+          /* Para Android e iOS */
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            padding-left: 1%;
+            padding-right: 1%;
+            text-align: justify;
+            text-indent: 10%;
+            font-size: 300%;
+            width: 100%;
+          }
+      
+          p1{
+          /* Para Android e iOS */
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            padding-left: 1%;
+            padding-right: 1%;
+            font-size: 300%;
+            width: 100%;
+          }
+      
+          p2{
+          /* Para Android e iOS */
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            padding-left: 1%;
+            padding-right: 1%;
+            text-indent: 10%;
+            font-size: 300%;
+            width: 100%;
+          }
+      
+          /* Estilos para COLUNAS */
+          /* grid 100%*/
+          .linha {
+            width: 100%;
+            margin: auto;
+            overflow: auto;
+            padding: 0% 0%;
+            }
+          .colunaJA {
+            float: left;
+            }
+          .colJA1 {
+            /* Para Android e iOS */
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            font-size: 184%;
+            width: 50%;
+            text-align: left;
+            padding-left: 0%;
+            }
+          .colJA2 {
+          /* Para Android e iOS */
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            font-size: 184%;
+            width: 50%;
+            text-align: left;
+            padding-right: 0%;
+            }
+      
+          .colJA3 {
+          /* Para Android e iOS */
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            font-size: 270%;
+            width: 89%;
+            text-indent: 1%;
+            padding-left: 11%;
+          }
+            
+          .colJA4 {
+          /* Para Android e iOS */
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            font-size: 270%;
+            width: 89%;
+            text-indent: 0%;
+            padding-left: 11%;
+          }
+      
+          /* Estilos para BOTÕES */
+          .btn-Certificados {
+            background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
+            color: red; /* Cor do texto */
+            border: none; /* Sem bordas */
+            text-align: center; /* Alinhamento do texto */
+            text-decoration: none; /* Sem sublinhado */
+            display: block; /* Posição do botão */
+            margin: auto;
+            cursor: pointer; /* Cursor de mão ao passar o mouse */
+            padding: 1% 1%;
+            font-size: 400%;
+            width: 100%;
+          }
+            /* Estilos para BOTÕES */
+          .btn-WhatsApp {
+            background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
+            color: green; /* Cor do texto */
+            margin: auto;
+            cursor: pointer; /* Cursor de mão ao passar o mouse */
+            border: none; /* Sem bordas */
+            text-align: center; /* Alinhamento do texto */
+            text-decoration: none; /* Sem sublinhado */
+            display: block; /* Posição do botão */
+            padding: 1% 1%; /* Espaçamento interno */
+            font-size: 400%; /* Tamanho da fonte */
+            width: 100%;
+          }
+          .btn-Reflexão {
+            background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
+            color: yellow; /* Cor do texto */
+            border: none; /* Sem bordas */
+            text-align: center; /* Alinhamento do texto */
+            text-decoration: none; /* Sem sublinhado */
+            display: block; /* Posição do botão */
+            margin: auto;
+            cursor: pointer; /* Cursor de mão ao passar o mouse */
+            padding: 1% 1%;
+            font-size: 400%;
+            width: 100%;
+          }
+          /* Estilos para BOTÃO */
+          .btn-Fontes {
+            background-color: yellow; /* Cor de fundo do botão */
+            color: brown; /* Cor do texto */
+            border: none; /* Sem bordas */
+            text-align: center; /* Alinhamento do texto */
+            text-decoration: none; /* Sem sublinhado */
+            display: block;
+            margin: auto;
+            cursor: pointer; /* Cursor de mão ao passar o mouse */
+            padding: 1% 1%;
+            font-size: 400%;
+            width: 100%;
+            
+          }
+          /* Estilos para BOTÃO */
+          .btn-Instagram {
+            background-color: rgb(224, 100, 100); /* Cor de fundo do botão */
+            color: rgb(50, 50, 186); /* Cor do texto */
+            border: none; /* Sem bordas */
+            text-align: center; /* Alinhamento do texto */
+            text-decoration: none; /* Sem sublinhado */
+            display: block;
+            margin: auto;
+            cursor: pointer; /* Cursor de mão ao passar o mouse */
+            padding: 1% 1%;
+            font-size: 400%;
+            width: 100%;
+            
+          }
+      
+          /* Estilos para COLUNAS SERIGRAFIA*/
+          /* grid 100%*/
+          .linha {
+            width: 100%;
+          }
+          .colunaser {
+            float: left;
+            color: green;
+          }
+          .colser1 {
+            /* Para Android e iOS */
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            text-indent: 1%;
+            padding-left: 12%;
+            font-size: 300%;
+            width: 88%;
+            text-align: left;
+          }
+      
+          /* Estilos para RODAPÉ */
+          footer {
+            display:block;
+            background-color: blue;
+            text-align: center;
+            color: white;
+            padding: 1%;
+            font-size: 140%;
+            overflow: auto;
+            width: 100%;
+          }
+        }
+
+
+          /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */
+
+          @media only screen and (min-width: 1201px) and (max-width: 1600px) {
+            body{
+              flex-direction: column;
+              align-items: stretch;
+              justify-content: center;
+              width: 97%;
+            }
+            .navbar {
+              display: flex;
+              padding-right: 2%;
+              overflow: auto;
+              width: 100%;
+            }
+            .logo {
+              font-style: italic;
+              padding-left: 3%;
+              padding-right: 3%;
+            }
+            .menu {
+              list-style: none;
+              margin: auto;
+              padding-left: 1%;
+              padding-right: 1%;
+              display: flex;
+            }
+            .menu li { 
+              padding-left: 2%;
+              padding-right: 2%;
+            }
+        
+            .font {
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            h1{
+              font-size: 430%;
+            }
+            h2{
+              font-size: 420%;
+            }
+            h3{
+              font-size: 350%;
+            }
+            h4{
+              font-size: 340%;
+            }
+            h5{
+              font-size: 330%;
+            }
+        
+            p{
+            /* Para Android e iOS */
+              -webkit-hyphens: auto;
+              -moz-hyphens: auto;
+              -ms-hyphens: auto;
+              hyphens: auto;
+              padding-left: 1%;
+              padding-right: 1%;
+              text-align: justify;
+              text-indent: 10%;
+              font-size: 330%;
+              width: 100%;
+            }
+        
+            p1{
+            /* Para Android e iOS */
+              -webkit-hyphens: auto;
+              -moz-hyphens: auto;
+              -ms-hyphens: auto;
+              hyphens: auto;
+              padding-left: 1%;
+              padding-right: 1%;
+              font-size: 330%;
+              width: 100%;
+            }
+        
+            p2{
+            /* Para Android e iOS */
+              -webkit-hyphens: auto;
+              -moz-hyphens: auto;
+              -ms-hyphens: auto;
+              hyphens: auto;
+              padding-left: 1%;
+              padding-right: 1%;
+              text-indent: 10%;
+              font-size: 330%;
+              width: 100%;
+            }
+        
+            /* Estilos para COLUNAS */
+            /* grid 100%*/
+            .linha {
+              width: 100%;
+              margin: auto;
+              overflow: auto;
+              padding: 0% 0%;
+              }
+            .colunaJA {
+              float: left;
+              }
+            .colJA1 {
+              /* Para Android e iOS */
+              -webkit-hyphens: auto;
+              -moz-hyphens: auto;
+              -ms-hyphens: auto;
+              hyphens: auto;
+              font-size: 250%;
+              width: 50%;
+              text-align: left;
+              padding-left: 0%;
+              }
+            .colJA2 {
+            /* Para Android e iOS */
+              -webkit-hyphens: auto;
+              -moz-hyphens: auto;
+              -ms-hyphens: auto;
+              hyphens: auto;
+              font-size: 250%;
+              width: 50%;
+              text-align: left;
+              padding-right: 0%;
+              }
+        
+            .colJA3 {
+            /* Para Android e iOS */
+              -webkit-hyphens: auto;
+              -moz-hyphens: auto;
+              -ms-hyphens: auto;
+              hyphens: auto;
+              font-size: 270%;
+              width: 89%;
+              text-indent: 1%;
+              padding-left: 11%;
+            }
+              
+            .colJA4 {
+            /* Para Android e iOS */
+              -webkit-hyphens: auto;
+              -moz-hyphens: auto;
+              -ms-hyphens: auto;
+              hyphens: auto;
+              font-size: 270%;
+              width: 89%;
+              text-indent: 0%;
+              padding-left: 11%;
+            }
+        
+            /* Estilos para BOTÕES */
+            .btn-Certificados {
+              background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
+              color: red; /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 500%;
+              width: 100%;
+            }
+              /* Estilos para BOTÕES */
+            .btn-WhatsApp {
+              background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
+              color: green; /* Cor do texto */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              padding: 1% 1%; /* Espaçamento interno */
+              font-size: 500%; /* Tamanho da fonte */
+              width: 100%;
+            }
+            .btn-Reflexão {
+              background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
+              color: yellow; /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block; /* Posição do botão */
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 500%;
+              width: 100%;
+            }
+            /* Estilos para BOTÃO */
+            .btn-Fontes {
+              background-color: yellow; /* Cor de fundo do botão */
+              color: brown; /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block;
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 500%;
+              width: 100%;
+              
+            }
+            /* Estilos para BOTÃO */
+            .btn-Instagram {
+              background-color: rgb(224, 100, 100); /* Cor de fundo do botão */
+              color: rgb(50, 50, 186); /* Cor do texto */
+              border: none; /* Sem bordas */
+              text-align: center; /* Alinhamento do texto */
+              text-decoration: none; /* Sem sublinhado */
+              display: block;
+              margin: auto;
+              cursor: pointer; /* Cursor de mão ao passar o mouse */
+              padding: 1% 1%;
+              font-size: 500%;
+              width: 100%;
+              
+            }
+        
+            /* Estilos para COLUNAS SERIGRAFIA*/
+            /* grid 100%*/
+            .linha {
+              width: 100%;
+            }
+            .colunaser {
+              float: left;
+              color: green;
+            }
+            .colser1 {
+              /* Para Android e iOS */
+              -webkit-hyphens: auto;
+              -moz-hyphens: auto;
+              -ms-hyphens: auto;
+              hyphens: auto;
+              text-indent: 1%;
+              padding-left: 12%;
+              font-size: 300%;
+              width: 88%;
+              text-align: left;
+            }
+        
+            /* Estilos para RODAPÉ */
+            footer {
+              display:block;
+              background-color: blue;
+              text-align: center;
+              color: white;
+              padding: 1%;
+              font-size: 180%;
+              overflow: auto;
+              width: 100%;
+            }
+          }

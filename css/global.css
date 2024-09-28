@@ -34,18 +34,19 @@
   }
   h1{
     font-size: 102%;
+    text-decoration: underline;
   }
   h2{
     font-size: 97%;
   }
   h3{
-    font-size: 120%;
+    font-size: 104%;
   }
   h4{
-    font-size: 120%;
+    font-size: 104%;
   }
   h5{
-    font-size: 120%;
+    font-size: 104%;
   }
 
   p{
@@ -145,6 +146,19 @@
     padding-left: 4%;
   }
 
+  .colser1 {
+    /* Para Android e iOS */
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    text-indent: 1%;
+    padding-left: 4%;
+    font-size: 104%;
+    width: 96%;
+    text-align: left;
+  }
+
   /* Estilos para BOTÕES */
   .btn-Certificados {
     background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
@@ -214,29 +228,6 @@
     padding: 1% 1%;
     font-size: 150%;
     width: 100%;
-    
-  }
-
-  /* Estilos para COLUNAS SERIGRAFIA*/
-  /* grid 100%*/
-  .linha {
-    width: 100%;
-  }
-  .colunaser {
-    float: left;
-    color: green;
-  }
-  .colser1 {
-    /* Para Android e iOS */
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-    text-indent: 1%;
-    padding-left: 4%;
-    font-size: 100%;
-    width: 96%;
-    text-align: left;
   }
 
   /* Estilos para RODAPÉ */
@@ -289,6 +280,7 @@
     }
     h1{
       font-size: 170%;
+      text-decoration: underline;
     }
     h2{
       font-size: 165%;
@@ -399,6 +391,18 @@
       text-indent: 0%;
       padding-left: 8%;
     }
+    .colser1 {
+      /* Para Android e iOS */
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      -ms-hyphens: auto;
+      hyphens: auto;
+      text-indent: 1%;
+      padding-left: 8%;
+      font-size: 130%;
+      width: 92%;
+      text-align: left;
+    }
 
     /* Estilos para BOTÕES */
     .btn-Certificados {
@@ -468,30 +472,7 @@
       cursor: pointer; /* Cursor de mão ao passar o mouse */
       padding: 1% 1%;
       font-size: 200%;
-      width: 100%;
-      
-    }
-
-    /* Estilos para COLUNAS SERIGRAFIA*/
-    /* grid 100%*/
-    .linha {
-      width: 100%;
-    }
-    .colunaser {
-      float: left;
-      color: green;
-    }
-    .colser1 {
-      /* Para Android e iOS */
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
-      hyphens: auto;
-      text-indent: 1%;
-      padding-left: 8%;
-      font-size: 130%;
-      width: 92%;
-      text-align: left;
+      width: 100%; 
     }
 
     /* Estilos para RODAPÉ */
@@ -544,6 +525,7 @@
         }
         h1{
           font-size: 270%;
+          text-decoration: underline;
         }
         h2{
           font-size: 265%;
@@ -649,10 +631,23 @@
           -moz-hyphens: auto;
           -ms-hyphens: auto;
           hyphens: auto;
-          font-size: 209%;
+          font-size: 208%;
           width: 90%;
           text-indent: 0%;
           padding-left: 10%;
+        }
+        
+        .colser1 {
+          /* Para Android e iOS */
+          -webkit-hyphens: auto;
+          -moz-hyphens: auto;
+          -ms-hyphens: auto;
+          hyphens: auto;
+          text-indent: 1%;
+          padding-left: 10%;
+          font-size: 208%;
+          width: 90%;
+          text-align: left;
         }
     
         /* Estilos para BOTÕES */
@@ -724,29 +719,6 @@
           padding: 1% 1%;
           font-size: 300%;
           width: 100%;
-          
-        }
-    
-        /* Estilos para COLUNAS SERIGRAFIA*/
-        /* grid 100%*/
-        .linha {
-          width: 100%;
-        }
-        .colunaser {
-          float: left;
-          color: green;
-        }
-        .colser1 {
-          /* Para Android e iOS */
-          -webkit-hyphens: auto;
-          -moz-hyphens: auto;
-          -ms-hyphens: auto;
-          hyphens: auto;
-          text-indent: 1%;
-          padding-left: 10%;
-          font-size: 209%;
-          width: 90%;
-          text-align: left;
         }
     
         /* Estilos para RODAPÉ */
@@ -761,7 +733,6 @@
           width: 100%;
         }
       }
-
 
         /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */
 
@@ -800,6 +771,7 @@
           }
           h1{
             font-size: 360%;
+            text-decoration: underline;
           }
           h2{
             font-size: 350%;
@@ -910,6 +882,19 @@
             text-indent: 0%;
             padding-left: 11%;
           }
+          
+          .colser1 {
+            /* Para Android e iOS */
+            -webkit-hyphens: auto;
+            -moz-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+            text-indent: 1%;
+            padding-left: 12%;
+            font-size: 270%;
+            width: 88%;
+            text-align: left;
+          }
       
           /* Estilos para BOTÕES */
           .btn-Certificados {
@@ -983,28 +968,6 @@
             
           }
       
-          /* Estilos para COLUNAS SERIGRAFIA*/
-          /* grid 100%*/
-          .linha {
-            width: 100%;
-          }
-          .colunaser {
-            float: left;
-            color: green;
-          }
-          .colser1 {
-            /* Para Android e iOS */
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
-            text-indent: 1%;
-            padding-left: 12%;
-            font-size: 300%;
-            width: 88%;
-            text-align: left;
-          }
-      
           /* Estilos para RODAPÉ */
           footer {
             display:block;
@@ -1018,15 +981,25 @@
           }
         }
 
-
           /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */
 
-          @media only screen and (min-width: 1201px) and (max-width: 1600px) {
+          @media only screen and (min-width: 1201px){
+            .containerJA {
+              max-width: 70%; /* Define a largura máxima da página */
+              margin: 0 auto;   /* Centraliza o conteúdo */
+            }
+            .containertec {
+              max-width: 70%; /* Define a largura máxima da página */
+              margin: 0 auto;   /* Centraliza o conteúdo */
+            }
+            .containerser {
+              max-width: 70%; /* Define a largura máxima da página */
+              margin: 0 auto;   /* Centraliza o conteúdo */
+            }
             body{
               flex-direction: column;
               align-items: stretch;
               justify-content: center;
-              width: 97%;
             }
             .navbar {
               display: flex;
@@ -1055,19 +1028,20 @@
               font-family: Arial, Helvetica, sans-serif;
             }
             h1{
-              font-size: 430%;
+              font-size: 310%;
+              text-decoration: underline;
             }
             h2{
-              font-size: 420%;
+              font-size: 300%;
             }
             h3{
-              font-size: 350%;
+              font-size: 300%;
             }
             h4{
-              font-size: 340%;
+              font-size: 300%;
             }
             h5{
-              font-size: 330%;
+              font-size: 300%;
             }
         
             p{
@@ -1080,10 +1054,9 @@
               padding-right: 1%;
               text-align: justify;
               text-indent: 10%;
-              font-size: 330%;
+              font-size: 290%;
               width: 100%;
             }
-        
             p1{
             /* Para Android e iOS */
               -webkit-hyphens: auto;
@@ -1092,10 +1065,9 @@
               hyphens: auto;
               padding-left: 1%;
               padding-right: 1%;
-              font-size: 330%;
+              font-size: 290%;
               width: 100%;
             }
-        
             p2{
             /* Para Android e iOS */
               -webkit-hyphens: auto;
@@ -1105,7 +1077,7 @@
               padding-left: 1%;
               padding-right: 1%;
               text-indent: 10%;
-              font-size: 330%;
+              font-size: 290%;
               width: 100%;
             }
         
@@ -1126,7 +1098,7 @@
               -moz-hyphens: auto;
               -ms-hyphens: auto;
               hyphens: auto;
-              font-size: 250%;
+              font-size: 170%;
               width: 50%;
               text-align: left;
               padding-left: 0%;
@@ -1137,7 +1109,7 @@
               -moz-hyphens: auto;
               -ms-hyphens: auto;
               hyphens: auto;
-              font-size: 250%;
+              font-size: 170%;
               width: 50%;
               text-align: left;
               padding-right: 0%;
@@ -1149,7 +1121,7 @@
               -moz-hyphens: auto;
               -ms-hyphens: auto;
               hyphens: auto;
-              font-size: 270%;
+              font-size: 260%;
               width: 89%;
               text-indent: 1%;
               padding-left: 11%;
@@ -1161,10 +1133,23 @@
               -moz-hyphens: auto;
               -ms-hyphens: auto;
               hyphens: auto;
-              font-size: 270%;
+              font-size: 260%;
               width: 89%;
               text-indent: 0%;
               padding-left: 11%;
+            }
+            
+            .colser1 {
+              /* Para Android e iOS */
+              -webkit-hyphens: auto;
+              -moz-hyphens: auto;
+              -ms-hyphens: auto;
+              hyphens: auto;
+              text-indent: 1%;
+              padding-left: 12%;
+              font-size: 260%;
+              width: 88%;
+              text-align: left;
             }
         
             /* Estilos para BOTÕES */
@@ -1178,7 +1163,7 @@
               margin: auto;
               cursor: pointer; /* Cursor de mão ao passar o mouse */
               padding: 1% 1%;
-              font-size: 500%;
+              font-size: 400%;
               width: 100%;
             }
               /* Estilos para BOTÕES */
@@ -1192,7 +1177,7 @@
               text-decoration: none; /* Sem sublinhado */
               display: block; /* Posição do botão */
               padding: 1% 1%; /* Espaçamento interno */
-              font-size: 500%; /* Tamanho da fonte */
+              font-size: 400%; /* Tamanho da fonte */
               width: 100%;
             }
             .btn-Reflexão {
@@ -1205,7 +1190,7 @@
               margin: auto;
               cursor: pointer; /* Cursor de mão ao passar o mouse */
               padding: 1% 1%;
-              font-size: 500%;
+              font-size: 400%;
               width: 100%;
             }
             /* Estilos para BOTÃO */
@@ -1219,7 +1204,7 @@
               margin: auto;
               cursor: pointer; /* Cursor de mão ao passar o mouse */
               padding: 1% 1%;
-              font-size: 500%;
+              font-size: 400%;
               width: 100%;
               
             }
@@ -1234,31 +1219,8 @@
               margin: auto;
               cursor: pointer; /* Cursor de mão ao passar o mouse */
               padding: 1% 1%;
-              font-size: 500%;
+              font-size: 400%;
               width: 100%;
-              
-            }
-        
-            /* Estilos para COLUNAS SERIGRAFIA*/
-            /* grid 100%*/
-            .linha {
-              width: 100%;
-            }
-            .colunaser {
-              float: left;
-              color: green;
-            }
-            .colser1 {
-              /* Para Android e iOS */
-              -webkit-hyphens: auto;
-              -moz-hyphens: auto;
-              -ms-hyphens: auto;
-              hyphens: auto;
-              text-indent: 1%;
-              padding-left: 12%;
-              font-size: 300%;
-              width: 88%;
-              text-align: left;
             }
         
             /* Estilos para RODAPÉ */
@@ -1268,7 +1230,7 @@
               text-align: center;
               color: white;
               padding: 1%;
-              font-size: 180%;
+              font-size: 120%;
               overflow: auto;
               width: 100%;
             }

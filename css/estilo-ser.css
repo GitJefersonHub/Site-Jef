@@ -193,7 +193,6 @@ h5{
   }
 }
 
-
 /* Estilos para PARAGRAFOS */
 p{
   color: blue;
@@ -205,4 +204,9 @@ p2{
   color: yellow;
 }
 
+/* Estilos para COLUNAS SERIGRAFIA*/
+.colser1 {
+  float: left;
+  color: green;
+}
 

@@ -16,6 +16,7 @@
     font-style: italic;
     padding-left: 3%;
     padding-right: 3%;
+    text-align: center;
   }
   .menu {
     list-style: none;
@@ -23,30 +24,32 @@
     padding-left: 1%;
     padding-right: 1%;
     display: flex;
+    text-align: center;
   }
   .menu li { 
     padding-left: 2%;
     padding-right: 2%;
+    text-align: center;
   }
 
   .font {
     font-family: Arial, Helvetica, sans-serif;
   }
   h1{
-    font-size: 101%;
+    font-size: 98%;
     text-decoration: underline;
   }
   h2{
-    font-size: 96%;
+    font-size: 94%;
   }
   h3{
-    font-size: 102%;
+    font-size: 98%;
   }
   h4{
-    font-size: 102%;
+    font-size: 98%;
   }
   h5{
-    font-size: 102%;
+    font-size: 98%;
   }
 
   p{

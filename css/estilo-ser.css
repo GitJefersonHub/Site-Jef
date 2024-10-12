@@ -147,7 +147,7 @@ h5{
 /* Estilos para IMAGENS */
 .ser {
   background-image: url('   ');
-  .kitbanheiroporta {
+  .kit-aux-banheiroporta {
   padding-left: 2px;
   padding-right: 2px;
   width: 32%;
@@ -157,7 +157,7 @@ h5{
 /* Estilos para IMAGENS */
 .ser {
   background-image: url('   ');
-  .kitbanheirosanitario {
+  .kit-aux-banheirosanitario {
   padding-left: 2px;
   padding-right: 2px;
   width: 32%;
@@ -166,7 +166,7 @@ h5{
 }
 .ser {
   background-image: url('   ');
-  .kitsilencio {
+  .kit-aux-silencio {
   padding-left: 2px;
   padding-right: 2px;
   width: 32%;
@@ -175,20 +175,64 @@ h5{
 }
 .ser {
   background-image: url('   ');
-  .logoadvertencia {
-  padding-left: 8px;
-  padding-right: 8px;
-  width: 17%;
+  .kit-adv-Cond {
+  padding-left: 1px;
+  padding-right: 1px;
+  width: 32%;
+  float: left;
+  }
+}
+.ser {
+  background-image: url('   ');
+  .kit-adv-NF {
+  padding-left: 1px;
+  padding-right: 1px;
+  width: 32%;
+  float: left;
+  }
+}
+.ser {
+  background-image: url('   ');
+  .kit-adv-piso {
+  padding-left: 1px;
+  padding-right: 1px;
+  width: 32%;
+  float: left;
+  }
+}
+.ser {
+  background-image: url('   ');
+  .kit-reg-estacionar {
+  padding-left: 1px;
+  padding-right: 1px;
+  width: 32%;
+  float: left;
+  }
+}
+.ser {
+  background-image: url('   ');
+  .kit-reg-NF {
+  padding-left: 1px;
+  padding-right: 1px;
+  width: 32%;
+  float: left;
+  }
+}
+.ser {
+  background-image: url('   ');
+  .kit-reg-perturbação {
+  padding-left: 1px;
+  padding-right: 1px;
+  width: 32%;
   float: left;
   }
 }
 .ser {
   background-image: url('   ');
   .logoregulamentacao {
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 1px;
+  padding-right: 1px;
   width: 17%;
-  height: 17%;
   float: left;
   }
 }

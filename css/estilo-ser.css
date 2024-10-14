@@ -229,6 +229,15 @@ h5{
 }
 .ser {
   background-image: url('   ');
+  .kit-reg-cãobravo {
+  padding-left: 1px;
+  padding-right: 1px;
+  width: 32%;
+  float: left;
+  }
+}
+.ser {
+  background-image: url('   ');
   .logoregulamentacao {
   padding-left: 1px;
   padding-right: 1px;

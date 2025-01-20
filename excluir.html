@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Votação</title>
+  </head>
+  <body>
+    <h1>Vote no seu candidato</h1>
+    <form action="votacao.php" method="post">
+      <label>
+        <input type="radio" name="candidato" value="1" required> Candidato 1
+      </label><br>
+      <label>
+        <input type="radio" name="candidato" value="2" required> Candidato 2
+      </label><br>
+      <label>
+        <input type="radio" name="candidato" value="3" required> Candidato 3
+      </label><br><br>
+      <input type="submit" value="Votar">
+    </form>
+    <form action="votacao.php" method="post">
+      <input type="hidden" name="sair" value="sair">
+      <input type="submit" value="Sair e Ver Resultados">
+    </form>
+  </body>
+</html>

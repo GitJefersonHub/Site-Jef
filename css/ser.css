@@ -63,6 +63,93 @@ h5 {
     color: blue;
 }
 
+/*Estilo para as imagens ser*/
+
+.linha {
+  width: 100%;
+  overflow: auto
+}
+.colunaimgser {
+  display: flex;
+  flex-direction: row;
+}
+.colunaimgser img {
+  margin-right: 5px; /* Ajuste o espaçamento entre as imagens conforme necessário */
+}
+.logoSFV {
+  margin-left: 5px;
+  width: 51%;  /* Defina a largura desejada para esta imagem */
+  height: 30%; /* Defina a altura desejada para esta imagem */
+}
+.logodivulg {
+  width: 30%;  /* Defina a largura desejada para esta imagem */
+  height: 30%; /* Defina a altura desejada para esta imagem */
+}
+.logopagamentos {
+  width: 30%;  /* Defina a largura desejada para esta imagem */
+  height: 30%; /* Defina a altura desejada para esta imagem */
+}
+.logoaçai {
+  width: 30%;  /* Defina a largura desejada para esta imagem */
+  height: 30%; /* Defina a altura desejada para esta imagem */
+}
+.logoescolatec {
+  width: 30%;  /* Defina a largura desejada para esta imagem */
+  height: 30%; /* Defina a altura desejada para esta imagem */
+}
+.logobarbearia {
+  width: 30%;  /* Defina a largura desejada para esta imagem */
+  height: 30%; /* Defina a altura desejada para esta imagem */
+}
+.logocaveira {
+  width: 30%;  /* Defina a largura desejada para esta imagem */
+  height: 30%; /* Defina a altura desejada para esta imagem */
+}
+
+.kit-aux-banheiroporta {
+  margin-left: 5px;
+  width: 50%;  /* Defina a largura desejada para esta imagem */
+  height: 50%; /* Defina a altura desejada para esta imagem */
+}
+.kit-aux-banheirosanitario {
+  width: 50%;  /* Defina a largura desejada para esta imagem */
+  height: 50%; /* Defina a altura desejada para esta imagem */
+}
+.kit-aux-silencio {
+  width: 50%;  /* Defina a largura desejada para esta imagem */
+  height: 50%; /* Defina a altura desejada para esta imagem */
+}
+.kit-adv-Cond {
+  margin-left: 5px;
+  width: 50%;  /* Defina a largura desejada para esta imagem */
+  height: 50%; /* Defina a altura desejada para esta imagem */
+}
+.kit-adv-NF {
+  width: 50%;  /* Defina a largura desejada para esta imagem */
+  height: 50%; /* Defina a altura desejada para esta imagem */
+}
+.kit-adv-piso {
+  width: 50%;  /* Defina a largura desejada para esta imagem */
+  height: 50%; /* Defina a altura desejada para esta imagem */
+}
+
+.kit-reg-estacionar {
+  margin-left: 5px;
+  width: 50%;  /* Defina a largura desejada para esta imagem */
+  height: 50%; /* Defina a altura desejada para esta imagem */
+}
+.kit-reg-NF {
+  width: 50%;  /* Defina a largura desejada para esta imagem */
+  height: 50%; /* Defina a altura desejada para esta imagem */
+}
+.kit-reg-perturbação {
+  width: 50%;  /* Defina a largura desejada para esta imagem */
+  height: 50%; /* Defina a altura desejada para esta imagem */
+}
+.kit-reg-cãobravo {
+  width: 50%;  /* Defina a largura desejada para esta imagem */
+  height: 50%; /* Defina a altura desejada para esta imagem */
+}
 
 /* Estilos para os Botões */
 .btn-tecnologia, .btn-serigrafia {

@@ -93,8 +93,8 @@
 	}
 	/* Estilos para os Botões do cabeçalho */
 	.btn-tecnologia, .btn-serigrafia {
-	    width: 40%;
-	    font-size: 86%;
+	    width: 42%;
+	    font-size: 80%;
 	    border: none;
 	    padding: 6% 26%;
 	    text-align: center;
@@ -326,8 +326,8 @@
 	
 	/* Estilos para os Botões */
 	.btn-tecnologia, .btn-serigrafia {
-	    width: 40%;
-	    font-size: 120%;
+	    width: 42%;
+	    font-size: 116%;
 	    border: none;
 	    padding: 6% 26%;
 	    text-align: center;

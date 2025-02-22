@@ -91,10 +91,10 @@
 	    margin: 0 1%;
 	    font-size: 100%;
 	}
-	/* Estilos para os Botões */
+	/* Estilos para os Botões do cabeçalho */
 	.btn-tecnologia, .btn-serigrafia {
 	    width: 40%;
-	    font-size: 90%;
+	    font-size: 86%;
 	    border: none;
 	    padding: 6% 26%;
 	    text-align: center;
@@ -148,7 +148,7 @@
 	    text-align: center;
 	    text-decoration: none;
 	    display: flex;
-	    font-size: 80%;
+	    font-size: 100%;
 	    margin: 2%;
 	    cursor: pointer;
 	    border-radius: 10px;
@@ -160,7 +160,7 @@
 	img {
 	    display: block;
 	    margin: 0 auto;
-	    width: 30%;
+	    width: 40%;
 	    height: auto;
 	}
 	
@@ -178,7 +178,7 @@
 	    -moz-hyphens: auto;
 	    -ms-hyphens: auto;
 	    hyphens: auto;
-	    font-size: 80%;
+	    font-size: 50%;
 	    width: 50%;
 	    text-align: left;
 	    padding-left: 1%;
@@ -196,11 +196,11 @@
 	}
 	
 	.container4 {
-	    max-width: 50%;
+	    max-width: 80%;
 	    margin: 20px auto;
 	    padding: 20px;
 	    border-radius: 8px;
-	    font-size: 70%;
+	    font-size: 90%;
 	}
 	
 	/* Estilo do Formulário */
@@ -224,7 +224,7 @@
 	    width: 100%;
 	    padding: 10px;
 	    border-radius: 5px;
-	    font-size: 80%;
+	    font-size: 110%;
 	}
 	
 	/* Estilo do Rodapé */
@@ -321,13 +321,13 @@
 	    text-align: justify;
 	    margin: 0 1%;
 	    text-indent: 10%;
-	    font-size: 120%;
+	    font-size: 130%;
 	}
 	
 	/* Estilos para os Botões */
 	.btn-tecnologia, .btn-serigrafia {
 	    width: 40%;
-	    font-size: 110%;
+	    font-size: 120%;
 	    border: none;
 	    padding: 6% 26%;
 	    text-align: center;
@@ -348,7 +348,7 @@
 	    padding: 1% 10%;
 	    text-align: center;
 	    text-decoration: none;
-	    font-size: 100%;
+	    font-size: 120%;
 	    cursor: pointer;
 	    border-radius: 10px;
 	    margin-left: 20%;
@@ -381,7 +381,7 @@
 	    text-align: center;
 	    text-decoration: none;
 	    display: flex;
-	    font-size: 80%;
+	    font-size: 120%;
 	    margin: 2%;
 	    cursor: pointer;
 	    border-radius: 10px;
@@ -393,7 +393,7 @@
 	img {
 	    display: block;
 	    margin: 0 auto;
-	    width: 30%;
+	    width: 34%;
 	    height: auto;
 	}
 	
@@ -411,7 +411,7 @@
 	    -moz-hyphens: auto;
 	    -ms-hyphens: auto;
 	    hyphens: auto;
-	    font-size: 100%;
+	    font-size: 90%;
 	    width: 50%;
 	    text-align: left;
 	    padding-left: 1%;
@@ -423,17 +423,17 @@
 	/* Estilos para Containers */
 	.container2, .container3 {
 	    font-family: 'Tahoma', sans-serif;
-	    font-size: 100%;
-	    max-width: 80%;
+	    font-size: 130%;
+	    max-width: 100%;
 	    margin: 0 20%;
 	}
 	
 	.container4 {
-	    max-width: 50%;
+	    max-width: 80%;
 	    margin: 20px auto;
 	    padding: 20px;
 	    border-radius: 8px;
-	    font-size: 80%;
+	    font-size: 120%;
 	}
 	
 	/* Estilo do Formulário */
@@ -457,7 +457,7 @@
 	    width: 100%;
 	    padding: 10px;
 	    border-radius: 5px;
-	    font-size: 90%;
+	    font-size: 120%;
 	}
 	
 	/* Estilo do Rodapé */

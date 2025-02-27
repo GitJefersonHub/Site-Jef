@@ -165,14 +165,14 @@
             align-items: flex-start;
         }
         .weather-info {
-        width: 60%;
+        width: 70%;
             margin-left: 0%;
             color: pink;
              
-             font-size: 90%;
+             font-size: 100%;
         }
         img {
-            width: 40%;
+            width: 30%;
             height: auto;
         }
 	
@@ -405,13 +405,28 @@
 	    align-items: center;
 	}
 	
-	/* Estilo da Imagem */
-	img {
-	    
-	    margin: 0 auto;
-	    width: 34%;
-	    height: auto;
-	}
+	/* Estilo da Imagem Jeferson Alves*/
+	
+	
+	
+	.containerJA {
+            display: flex;
+            align-items: flex-start;
+        }
+        .weather-info {
+        width: 70%;
+            margin-left: 0%;
+            color: pink;
+             
+             font-size: 130%;
+        }
+        img {
+            width: 30%;
+            height: auto;
+        }
+	
+	
+	
 	
 	/* Estilo das Colunas */
 	.row {

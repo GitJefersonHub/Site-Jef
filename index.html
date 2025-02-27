@@ -47,9 +47,10 @@
                     // Obter a cotação do dólar
                     getExchangeRate().then(exchangeRate => {
                         weatherDiv.innerHTML = `
-                            ${city}, ${new Date().getDate()} de ${new Date().toLocaleString('pt-BR', { month: 'long' })}, de ${new Date().getFullYear()}. ${new Date().toLocaleString('pt-BR', { weekday: 'long' })} ${new Date().toLocaleString('pt-BR', { hour: '2-digit', minute: '2-digit', timeZone: 'America/Sao_Paulo' })}(Brasília)<br>
-                            ${temperature}°C. ${description}.<br>
-                            Dólar: R$ ${exchangeRate}`;
+                            * ${city}, ${new Date().getDate()} de ${new Date().toLocaleString('pt-BR', { month: 'long' })} de ${new Date().getFullYear()}.<br>
+                            * ${new Date().toLocaleString('pt-BR', { weekday: 'long' })} ${new Date().toLocaleString('pt-BR', { hour: '2-digit', minute: '2-digit', timeZone: 'America/Sao_Paulo' })}.<br>
+                            * ${temperature}°C. ${description}.<br>
+                            * Dólar: R$ ${exchangeRate}`;
                     });
                 })
                 .catch(error => {
@@ -134,10 +135,7 @@
                 </ol>
             </div>
         
-            <p class="p2">Espaço reservado!</p>
-            <button class="btn2" onclick="window.location.href='https://drive.google.com/file/d/1CX5NaOATh81lEjddsb4QEoxsAGPrM-4v/view?usp=sharing'">Reflexão:</button>
-        
-            <p class="p1">Dedicado para refletir, pensar e agir em benefício da humanidade.</p>
+            
 
             <h4>SERIGRAFIA (Silk screen):</h4>
             <p class="p1">Técnica utilizada para imprimir artes gráficas em diversos materiais como tecidos, papéis, plásticos e outros materiais. Com um campo muito amplo e muito complexo em oportunidades, por aqui exploro essa técnica baseado nas experiências que tenho.</p>
@@ -150,6 +148,10 @@
                     <li>Impressões em <strong>outros</strong> materiais</li>
                 </ul>
             </div>
+            <p class="p2">Espaço reservado!</p>
+            <button class="btn2" onclick="window.location.href='https://drive.google.com/file/d/1CX5NaOATh81lEjddsb4QEoxsAGPrM-4v/view?usp=sharing'">Reflexão:</button>
+        
+            <p class="p1">Dedicado para refletir, pensar e agir em benefício da humanidade.</p>
         </section>  
 
         <div class="container4">

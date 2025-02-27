@@ -156,13 +156,29 @@
 	    align-items: center;
 	}
 	
-	/* Estilo da Imagem */
-	img {
-	    display: block;
-	    margin: 0 auto;
-	    width: 40%;
-	    height: auto;
-	}
+	/* Estilo da Imagem Jeferson Alves */
+	
+	
+	
+.containerJA {
+            display: flex;
+            align-items: flex-start;
+        }
+        .weather-info {
+        width: 60%;
+            margin-left: 0%;
+            color: pink;
+             
+             font-size: 90%;
+        }
+        img {
+            width: 40%;
+            height: auto;
+        }
+	
+	
+	
+	
 	
 	/* Estilo das Colunas */
 	.row {
@@ -391,7 +407,7 @@
 	
 	/* Estilo da Imagem */
 	img {
-	    display: block;
+	    
 	    margin: 0 auto;
 	    width: 34%;
 	    height: auto;

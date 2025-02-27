@@ -23,7 +23,7 @@
     <main>
     <div class="containerJA">
         <img src="img/J1.png" alt="J1">
-        <div id="weather" class="weather-info">Carregando...</div>
+        <div id="weather" class="weather-info">Espaço reservado para informações, se permitido a localização do dispositivo.</div>
     </div>
     <script>
         const weatherApiKey = 'b8e1ca208ba37b685082aa9f5ab4d284'; // Chave de API do OpenWeatherMap
@@ -209,7 +209,7 @@
                         window.location.href = 'TEC.html'; // Redireciona para TEC.html
                     },
                     error: function(xhr, status, error) {
-                        alert('Erro ao enviar o formulário: ' + error);
+                        alert('Erro ao enviar o formulário: Site em manutenção. ' + error);
                     }
                 });
             });

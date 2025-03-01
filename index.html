@@ -23,7 +23,7 @@
     <main>
     <div class="containerJA">
         <img src="img/J1.png" alt="J1">
-        <div id="weather" class="weather-info">Espaço reservado para informações, se permitido a localização do dispositivo.</div>
+        <div id="weather" class="weather-info">Espaço reservado para informações, (se permitido a localização do dispositivo). Plataforma dedicada a trazer informações sobre tecnologia e serigrafia, alinhado às leis vigentes. O site busca informar e inspirar seus usuários.</div> <br>
     </div>
     
     
@@ -73,7 +73,7 @@
                                 weatherDiv.innerHTML = `
                                     
                                      * ${city}, ${new Date().getDate()} de ${new Date().toLocaleString('pt-BR', { month: 'long' })} de ${new Date().getFullYear()}.<br>
-                                    ${new Date().toLocaleString('pt-BR', { weekday: 'long' })}: ${temperature}°C / ${description}.<br>
+                                    ${new Date().toLocaleString('pt-BR', { weekday: 'long' })}: ${temperature}°C / ${description}.<br><br>
                                      * Dólar: R$ ${exchangeRate}<br>
                                      * Previsão dos próximos dias:<br>
                                     ${forecastHtml}`;

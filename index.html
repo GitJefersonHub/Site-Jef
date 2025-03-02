@@ -64,7 +64,7 @@
                                 weatherDiv.innerHTML = `
                                     
                                      * ${city}, ${new Date().getDate()} de ${new Date().toLocaleString('pt-BR', { month: 'long' })} de ${new Date().getFullYear()}.<br>
-                                    ${new Date().toLocaleString('pt-BR', { weekday: 'long' })}: ${temperature}°C / ${description}.<br><br>
+                                    ${new Date().toLocaleString('pt-BR', { weekday: 'long' })}: ${temperature}°C / ${description}<br><br>
                                      * Dólar: R$ ${exchangeRate}<br>
                                      * Previsão dos próximos dias:<br>
                                     ${forecastHtml}`;

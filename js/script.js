@@ -94,7 +94,7 @@ button.className = 'number-btn'; // Adiciona classe ao botão.
 button.disabled = numerosConfirmados.hasOwnProperty(i); // Desativa botão se o número já estiver confirmado. 
 // Adiciona um evento de clique ao botão 
 button.addEventListener('click', () => { 
-const confirmacao = confirm(`Número ${i}. Deseja continuar?`); // Confirmação antes de prosseguir. 
+const confirmacao = confirm(` ${i}. Deseja continuar?`); // Confirmação antes de prosseguir. 
 if (confirmacao) { 
 const numeroWhatsApp = "62981208278"; // Número de WhatsApp para envio. 
 const mensagem = `Olá! Escolhi o número ${i} na rifa.`; // Mensagem a ser enviada. 

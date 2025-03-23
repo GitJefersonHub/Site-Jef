@@ -1,1275 +1,2194 @@
 /* Celular peq*/
 @media (max-width: 480px) {
-  body{
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    width: 94%;
-  }
-  .navbar {
-    display: flex;
-    padding-right: 2%;
-    overflow: auto;
-    width: 100%;
-  }
-  .logo {
-    font-style: italic;
-    padding-left: 3%;
-    padding-right: 3%;
-    text-align: center;
-  }
-  .menu {
-    list-style: none;
-    margin: auto;
-    padding-left: 1%;
-    padding-right: 1%;
-    display: flex;
-    text-align: center;
-  }
-  .menu li { 
-    padding-left: 2%;
-    padding-right: 2%;
-    text-align: center;
-  }
 
-  .font {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  h1{
-    font-size: 98%;
-    text-decoration: underline;
-  }
-  h2{
-    font-size: 94%;
-  }
-  h3{
-    font-size: 98%;
-  }
-  h4{
-    font-size: 98%;
-  }
-  h5{
-    font-size: 98%;
-  }
+	/* Estilos Gerais */
+	/*identação do código (Shift + Alt + F)*/
+	body {
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
 
-  p{
-  /* Para Android e iOS */
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-    padding-left: 1%;
-    padding-right: 1%;
-    text-align: justify;
-    text-indent: 10%;
-    font-size: 115%;
-    width: 100%;
-  }
+	/* Estilização para a lista de participantes */
+	#lista-participantes {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		list-style-type: none;
+		/* Remove os marcadores */
+		padding: 0;
+		font-size: 3vw;
+		/* Ajusta o tamanho da fonte com base na largura da tela */
+		border-radius: 10px;
+	}
 
-  p1{
-  /* Para Android e iOS */
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-    padding-left: 1%;
-    padding-right: 1%;
-    font-size: 115%;
-    width: 100%;
-  }
+	/* Ajustes para containers de números */
+	.numbers-container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 0.5vw;
+		/* Define o espaçamento com unidade responsiva */
+		margin-top: 1vw;
 
-  p2{
-  /* Para Android e iOS */
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-    padding-left: 1%;
-    padding-right: 1%;
-    text-indent: 10%;
-    font-size: 115%;
-    width: 100%;
-  }
+	}
 
-  /* Estilos para COLUNAS */
-  /* grid 100%*/
-  .linha {
-    width: 100%;
-    margin: auto;
-    overflow: auto;
-    padding: 0% 0%;
-    }
-  .colunaJA {
-    float: left;
-    }
-  .colJA1 {
-    /* Para Android e iOS */
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-    font-size: 60%;
-    width: 50%;
-    text-align: left;
-    padding-left: 0%;
-    }
-  .colJA2 {
-  /* Para Android e iOS */
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-    font-size: 60%;
-    width: 50%;
-    text-align: left;
-    padding-right: 0%;
-    }
+	/* Estilização para botões */
+	.number-btn {
+		width: 10vw;
+		/* Ajusta o tamanho dos botões em relação à largura da tela */
+		height: 10vw;
+		/* Mantém os botões proporcionais */
+		border: none;
+		border-radius: 50%;
+		/* Torna os botões circulares */
+		font-size: 4vw;
+		cursor: pointer;
 
-  .colJA3 {
-  /* Para Android e iOS */
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-    font-size: 104%;
-    width: 96%;
-    text-indent: 1%;
-    padding-left: 4%;
-  }
-    
-  .colJA4 {
-  /* Para Android e iOS */
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-    font-size: 104%;
-    width: 96%;
-    text-indent: 0%;
-    padding-left: 4%;
-  }
+	}
 
-  .colser1 {
-    /* Para Android e iOS */
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-    text-indent: 1%;
-    padding-left: 4%;
-    font-size: 104%;
-    width: 96%;
-    text-align: left;
-  }
+	.number-btn:disabled {
+		cursor: not-allowed;
+	}
 
-  /* Estilos para BOTÕES */
-  .btn-Certificados {
-    background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
-    color: red; /* Cor do texto */
-    border: none; /* Sem bordas */
-    text-align: center; /* Alinhamento do texto */
-    text-decoration: none; /* Sem sublinhado */
-    display: block; /* Posição do botão */
-    margin: auto;
-    cursor: pointer; /* Cursor de mão ao passar o mouse */
-    padding: 1% 1%;
-    font-size: 150%;
-    width: 100%;
-  }
-    /* Estilos para BOTÕES */
-  .btn-WhatsApp {
-    background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
-    color: green; /* Cor do texto */
-    margin: auto;
-    cursor: pointer; /* Cursor de mão ao passar o mouse */
-    border: none; /* Sem bordas */
-    text-align: center; /* Alinhamento do texto */
-    text-decoration: none; /* Sem sublinhado */
-    display: block; /* Posição do botão */
-    padding: 1% 1%; /* Espaçamento interno */
-    font-size: 150%; /* Tamanho da fonte */
-    width: 100%;
-  }
-  .btn-Reflexão {
-    background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
-    color: yellow; /* Cor do texto */
-    border: none; /* Sem bordas */
-    text-align: center; /* Alinhamento do texto */
-    text-decoration: none; /* Sem sublinhado */
-    display: block; /* Posição do botão */
-    margin: auto;
-    cursor: pointer; /* Cursor de mão ao passar o mouse */
-    padding: 1% 1%;
-    font-size: 150%;
-    width: 100%;
-  }
-  /* Estilos para BOTÃO */
-  .btn-Fontes {
-    background-color: yellow; /* Cor de fundo do botão */
-    color: brown; /* Cor do texto */
-    border: none; /* Sem bordas */
-    text-align: center; /* Alinhamento do texto */
-    text-decoration: none; /* Sem sublinhado */
-    display: block;
-    margin: auto;
-    cursor: pointer; /* Cursor de mão ao passar o mouse */
-    padding: 1% 1%;
-    font-size: 150%;
-    width: 100%;
-  }
-  /* Estilos para BOTÃO */
-  .btn-Instagram {
-    background-color: rgb(224, 100, 100); /* Cor de fundo do botão */
-    color: rgb(50, 50, 186); /* Cor do texto */
-    border: none; /* Sem bordas */
-    text-align: center; /* Alinhamento do texto */
-    text-decoration: none; /* Sem sublinhado */
-    display: block;
-    margin: auto;
-    cursor: pointer; /* Cursor de mão ao passar o mouse */
-    padding: 1% 1%;
-    font-size: 150%;
-    width: 100%;
-  }
+	/* Estilização para o resumo */
+	.summary {
+		margin-top: 2vw;
+		padding: 3vw;
+		border-radius: 1vw;
+	}
 
-  /* Estilos para RODAPÉ */
-  footer {
-    display:block;
-    background-color: blue;
-    text-align: center;
-    color: white;
-    padding: 1%;
-    font-size: 80%;
-    overflow: auto;
-    width: 100%;
-  }
+	.summary p {
+		margin: 1.5vw 0;
+		font-size: 2.5vw;
+		/* Tamanho da fonte responsivo */
+	}
+
+	.container-principal {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 20px;
+		border-radius: 15px;
+	}
+
+	.cronometro-container {
+		margin-bottom: 20px;
+	}
+
+	#cronometro {
+		font-size: clamp(24px, 4vw, 40px);
+		padding: 20px 40px;
+		border-radius: 10px;
+		transition: all 0.5s;
+	}
+
+	#cronometro.finalizado {
+		transform: scale(1.2);
+		animation: pulsar 1s infinite alternate;
+	}
+
+	@keyframes pulsar {
+		from {
+			transform: scale(1.2);
+		}
+
+		to {
+			transform: scale(1.3);
+		}
+	}
+
+	#mensagem-sorteio {
+		font-size: clamp(20px, 4vw, 40px);
+		margin-bottom: 20px;
+		animation: fadeInOut 1.5s infinite;
+	}
+
+	@keyframes fadeInOut {
+
+		0%,
+		100% {
+			opacity: 0;
+		}
+
+		50% {
+			opacity: 1;
+		}
+	}
+
+	.resultado-sorteio {
+		font-size: 1.5rem;
+		margin-top: 10px;
+		width: 80%;
+	}
+
+	.resultado-sorteio h2 {
+		margin-bottom: 10px;
+
+	}
+
+	.resultado-sorteio p {
+		margin: 5px 0;
+
+	}
+
+	/* Estilo do Cabeçalho */
+	nav {
+		padding: 1% 0;
+		text-align: center;
+		margin: 0 1%;
+	}
+
+	nav .logo {
+		margin-right: auto;
+		border-radius: 10px;
+		padding: 1%;
+		margin: 0 1%;
+	}
+
+	nav .logo a {
+		font-family: 'Georgia', 'Times New Roman', Times, serif;
+		font-size: 200%;
+		text-decoration: none;
+		margin: 0 1%;
+	}
+
+	nav ul {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 0 1%;
+	}
+
+	nav ul li {
+		width: 40%;
+		margin: 0 20px;
+		border-radius: 10px;
+		padding: 1%;
+	}
+
+	nav ul li a {
+		text-decoration: none;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+	nav ul li a.disabled {
+		pointer-events: none;
+	}
+
+	/* Estilos para Títulos */
+	h1,
+	h3,
+	h4,
+	h5 {
+		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: clamp(18px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: center;
+		margin: 0.5em 0;
+	}
+
+	h2 {
+		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: center;
+		margin: 0.5em 0;
+	}
+
+	/* Estilos para Parágrafos */
+	.p1,
+	.p2,
+	.p3,
+	.p4,
+	.p5 {
+		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		hyphens: auto;
+		text-align: justify;
+		margin: 0 1%;
+		text-indent: 10%;
+		font-size: clamp(14px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+
+
+	/* Estilos para os Botões do cabeçalho */
+	.btn-tecnologia,
+	.btn-serigrafia {
+		width: 42%;
+		font-size: clamp(12px, 3vw, 16px);
+		/* Ajuste dinâmico do tamanho da fonte */
+		border: none;
+		padding: 10px 20px;
+		/* Ajuste proporcional do preenchimento */
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		margin: 5px;
+		/* Adiciona espaço entre os botões */
+		cursor: pointer;
+		border-radius: 8px;
+		/* Bordas levemente arredondadas */
+	}
+
+	.btn-tecnologia:hover,
+	.btn-serigrafia:hover {
+		transform: scale(1.05);
+		/* Leve aumento no tamanho ao passar o mouse */
+	}
+
+	.btn1,
+	.btn2 {
+		width: 80%;
+		border: none;
+		padding: 1% 10%;
+		text-align: center;
+		text-decoration: none;
+		cursor: pointer;
+		border-radius: 10px;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-size: clamp(20px, 4vw, 40px);
+	}
+
+	.btn1:hover,
+	.btn2:hover {
+		transform: scale(1.1);
+	}
+
+	.btn3 {
+		border: none;
+		padding: 5% 10%;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 1.6rem;
+		margin: 2%;
+		cursor: pointer;
+		border-radius: 4%;
+	}
+
+	.btn3:hover {
+		transform: scale(1.1);
+	}
+
+	.btn-enviar {
+		border: none;
+		padding: 1% 8%;
+		text-align: center;
+		text-decoration: none;
+		display: flex;
+		font-size: 100%;
+		margin: 2%;
+		cursor: pointer;
+		border-radius: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* Estilo da Imagem Jeferson Alves */
+	.containerJA {
+		display: flex;
+		align-items: flex-start;
+		margin-top: 0%;
+		/* Espaço de 1% acima do container principal */
+	}
+
+	.weather-info {
+		hyphens: auto;
+		width: 70%;
+		margin-left: 1%;
+		margin-top: 0%;
+		/* Espaço de 1% acima do container do texto */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		display: flex;
+		/* Habilita ajuste baseado em imagem */
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	img {
+		width: 30%;
+		height: auto;
+		margin-left: 1%;
+		margin-top: 0%;
+		/* Espaço de 1% acima da imagem */
+	}
+
+	/* Estilo das colunas */
+	.row {
+		display: flex;
+		/* Define o layout flexível */
+		justify-content: space-between;
+		/* Espaça as colunas uniformemente */
+		width: 100%;
+		margin: 0 auto;
+		/* Centraliza horizontalmente */
+		flex-wrap: wrap;
+		/* Permite quebra de linha em telas menores */
+	}
+
+	.column {
+		hyphens: auto;
+		width: 50%;
+		/* Cada coluna ocupa aproximadamente metade da largura */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: left;
+		padding: 0px;
+		/* Espaço interno para melhorar a legibilidade */
+		box-sizing: border-box;
+		/* Inclui padding na largura */
+	}
+
+	ul {
+		list-style-type: disc;
+		/* Mantenha os marcadores padrão */
+		padding-left: 20px;
+		/* Ajusta o espaço à esquerda */
+		margin: 0px 0;
+		/* Adiciona espaçamento acima e abaixo da lista */
+	}
+
+	li {
+		margin-bottom: 0px;
+		/* Reduz o espaço entre itens da lista */
+		font-size: clamp(0.8em, 2vw, 1em);
+		/* Itens da lista também têm fonte responsiva */
+	}
+
+	/* Estilos para Containers */
+	.code-container {
+		border-radius: 10px;
+		width: 90%;
+		margin: 10px auto;
+		padding: 5px;
+		overflow-x: auto;
+	}
+
+	.container2,
+	.container3 {
+		font-family: 'Verdana', sans-serif;
+		/* Alternativa moderna à 'Tahoma' */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		max-width: 90%;
+		/* Garante que os containers respeitem a largura máxima */
+		margin: 0 auto;
+		/* Centraliza os containers */
+		padding: 1%;
+		/* Adiciona espaçamento interno */
+		line-height: 0 .6;
+		/* Melhora a legibilidade do texto */
+	}
+
+	.container4 {
+		max-width: 80%;
+		margin: 20px auto;
+		padding: 20px;
+		border-radius: 8px;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+	/* Estilo do Formulário */
+	.form-container {
+		padding: 20px;
+		border-radius: 8px;
+	}
+
+	.form-field {
+		margin-bottom: 20px;
+	}
+
+	.form-field label {
+		display: block;
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+
+	.form-field input,
+	.form-field textarea {
+		font-family: 'Arial', sans-serif;
+		width: 100%;
+		padding: 10px;
+		border-radius: 5px;
+		font-size: 110%;
+	}
+
+	/* Estilo do Rodapé */
+	footer {
+		text-align: center;
+		margin-top: 20px;
+		padding: 10px;
+		border-radius: 4px;
+		width: 90%;
+		margin: 20px auto;
+		font-size: 80%;
+	}
 }
 
-/* Celular grande*/ /* Celular grande*/ /* Celular grande*/ /* Celular grande*/ /* Celular grande*/ /* Celular grande*/ /* Celular grande*/
 
-  @media only screen and (min-width: 481px) and (max-width: 768px) {
-    body{
-      flex-direction: column;
-      align-items: stretch;
-      justify-content: center;
-      width: 95%;
-    }
-    .navbar {
-      display: flex;
-      padding-right: 2%;
-      overflow: auto;
-      width: 100%;
-    }
-    .logo {
-      font-style: italic;
-      padding-left: 3%;
-      padding-right: 3%;
-    }
-    .menu {
-      list-style: none;
-      margin: auto;
-      padding-left: 1%;
-      padding-right: 1%;
-      display: flex;
-    }
-    .menu li { 
-      padding-left: 2%;
-      padding-right: 2%;
-    }
+/* Celular grande*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
 
-    .font {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    h1{
-      font-size: 170%;
-      text-decoration: underline;
-    }
-    h2{
-      font-size: 165%;
-    }
-    h3{
-      font-size: 160%;
-    }
-    h4{
-      font-size: 155%;
-    }
-    h5{
-      font-size: 150%;
-    }
+	/* Estilos Gerais */
+	/*identação do código (Shift + Alt + F)*/
+	body {
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
 
-    p{
-    /* Para Android e iOS */
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
-      hyphens: auto;
-      padding-left: 1%;
-      padding-right: 1%;
-      text-align: justify;
-      text-indent: 10%;
-      font-size: 150%;
-      width: 100%;
-    }
+	/* Estilização para a lista de participantes */
+	#lista-participantes {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		list-style-type: none;
+		/* Remove os marcadores */
+		padding: 0;
+		font-size: 3vw;
+		/* Ajusta o tamanho da fonte com base na largura da tela */
+		border-radius: 10px;
+	}
 
-    p1{
-    /* Para Android e iOS */
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
-      hyphens: auto;
-      padding-left: 1%;
-      padding-right: 1%;
-      font-size: 150%;
-      width: 100%;
-    }
+	/* Ajustes para containers de números */
+	.numbers-container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 0.5vw;
+		/* Define o espaçamento com unidade responsiva */
+		margin-top: 1vw;
 
-    p2{
-    /* Para Android e iOS */
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
-      hyphens: auto;
-      padding-left: 1%;
-      padding-right: 1%;
-      text-indent: 10%;
-      font-size: 150%;
-      width: 100%;
-    }
+	}
 
-    /* Estilos para COLUNAS */
-    /* grid 100%*/
-    .linha {
-      width: 100%;
-      margin: auto;
-      overflow: auto;
-      padding: 0% 0%;
-      }
-    .colunaJA {
-      float: left;
-      }
-    .colJA1 {
-      /* Para Android e iOS */
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
-      hyphens: auto;
-      font-size: 110%;
-      width: 50%;
-      text-align: left;
-      padding-left: 0%;
-      }
-    .colJA2 {
-    /* Para Android e iOS */
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
-      hyphens: auto;
-      font-size: 110%;
-      width: 50%;
-      text-align: left;
-      padding-right: 0%;
-      }
+	/* Estilização para botões */
+	.number-btn {
+		width: 10vw;
+		/* Ajusta o tamanho dos botões em relação à largura da tela */
+		height: 10vw;
+		/* Mantém os botões proporcionais */
+		border: none;
+		border-radius: 50%;
+		/* Torna os botões circulares */
+		font-size: 4vw;
+		cursor: pointer;
 
-    .colJA3 {
-    /* Para Android e iOS */
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
-      hyphens: auto;
-      font-size: 130%;
-      width: 92%;
-      text-indent: 1%;
-      padding-left: 8%;
-    }
-      
-    .colJA4 {
-    /* Para Android e iOS */
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
-      hyphens: auto;
-      font-size: 130%;
-      width: 92%;
-      text-indent: 0%;
-      padding-left: 8%;
-    }
-    .colser1 {
-      /* Para Android e iOS */
-      -webkit-hyphens: auto;
-      -moz-hyphens: auto;
-      -ms-hyphens: auto;
-      hyphens: auto;
-      text-indent: 1%;
-      padding-left: 8%;
-      font-size: 130%;
-      width: 92%;
-      text-align: left;
-    }
+	}
 
-    /* Estilos para BOTÕES */
-    .btn-Certificados {
-      background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
-      color: red; /* Cor do texto */
-      border: none; /* Sem bordas */
-      text-align: center; /* Alinhamento do texto */
-      text-decoration: none; /* Sem sublinhado */
-      display: block; /* Posição do botão */
-      margin: auto;
-      cursor: pointer; /* Cursor de mão ao passar o mouse */
-      padding: 1% 1%;
-      font-size: 200%;
-      width: 100%;
-    }
-      /* Estilos para BOTÕES */
-    .btn-WhatsApp {
-      background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
-      color: green; /* Cor do texto */
-      margin: auto;
-      cursor: pointer; /* Cursor de mão ao passar o mouse */
-      border: none; /* Sem bordas */
-      text-align: center; /* Alinhamento do texto */
-      text-decoration: none; /* Sem sublinhado */
-      display: block; /* Posição do botão */
-      padding: 1% 1%; /* Espaçamento interno */
-      font-size: 200%; /* Tamanho da fonte */
-      width: 100%;
-    }
-    .btn-Reflexão {
-      background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
-      color: yellow; /* Cor do texto */
-      border: none; /* Sem bordas */
-      text-align: center; /* Alinhamento do texto */
-      text-decoration: none; /* Sem sublinhado */
-      display: block; /* Posição do botão */
-      margin: auto;
-      cursor: pointer; /* Cursor de mão ao passar o mouse */
-      padding: 1% 1%;
-      font-size: 200%;
-      width: 100%;
-    }
-    /* Estilos para BOTÃO */
-    .btn-Fontes {
-      background-color: yellow; /* Cor de fundo do botão */
-      color: brown; /* Cor do texto */
-      border: none; /* Sem bordas */
-      text-align: center; /* Alinhamento do texto */
-      text-decoration: none; /* Sem sublinhado */
-      display: block;
-      margin: auto;
-      cursor: pointer; /* Cursor de mão ao passar o mouse */
-      padding: 1% 1%;
-      font-size: 200%;
-      width: 100%;
-      
-    }
-    /* Estilos para BOTÃO */
-    .btn-Instagram {
-      background-color: rgb(224, 100, 100); /* Cor de fundo do botão */
-      color: rgb(50, 50, 186); /* Cor do texto */
-      border: none; /* Sem bordas */
-      text-align: center; /* Alinhamento do texto */
-      text-decoration: none; /* Sem sublinhado */
-      display: block;
-      margin: auto;
-      cursor: pointer; /* Cursor de mão ao passar o mouse */
-      padding: 1% 1%;
-      font-size: 200%;
-      width: 100%; 
-    }
+	.number-btn:disabled {
+		cursor: not-allowed;
+	}
 
-    /* Estilos para RODAPÉ */
-    footer {
-      display:block;
-      background-color: blue;
-      text-align: center;
-      color: white;
-      padding: 1%;
-      font-size: 90%;
-      overflow: auto;
-      width: 100%;
-    }
-  }
+	/* Estilização para o resumo */
+	.summary {
+		margin-top: 2vw;
+		padding: 3vw;
+		border-radius: 1vw;
+	}
 
-  /* Tablet */ /* Tablet */ /* Tablet */ /* Tablet */ /* Tablet */ /* Tablet */ /* Tablet */ /* Tablet */ /* Tablet */ /* Tablet */
+	.summary p {
+		margin: 1.5vw 0;
+		font-size: 2.5vw;
+		/* Tamanho da fonte responsivo */
+	}
 
-      @media only screen and (min-width: 769px) and (max-width: 1024px) {
-        body{
-          flex-direction: column;
-          align-items: stretch;
-          justify-content: center;
-          width: 96%;
-        }
-        .navbar {
-          display: flex;
-          padding-right: 2%;
-          overflow: auto;
-          width: 100%;
-        }
-        .logo {
-          font-style: italic;
-          padding-left: 3%;
-          padding-right: 3%;
-        }
-        .menu {
-          list-style: none;
-          margin: auto;
-          padding-left: 1%;
-          padding-right: 1%;
-          display: flex;
-        }
-        .menu li { 
-          padding-left: 2%;
-          padding-right: 2%;
-        }
-    
-        .font {
-          font-family: Arial, Helvetica, sans-serif;
-        }
-        h1{
-          font-size: 270%;
-          text-decoration: underline;
-        }
-        h2{
-          font-size: 265%;
-        }
-        h3{
-          font-size: 260%;
-        }
-        h4{
-          font-size: 255%;
-        }
-        h5{
-          font-size: 250%;
-        }
-    
-        p{
-        /* Para Android e iOS */
-          -webkit-hyphens: auto;
-          -moz-hyphens: auto;
-          -ms-hyphens: auto;
-          hyphens: auto;
-          padding-left: 1%;
-          padding-right: 1%;
-          text-align: justify;
-          text-indent: 10%;
-          font-size: 240%;
-          width: 100%;
-        }
-    
-        p1{
-        /* Para Android e iOS */
-          -webkit-hyphens: auto;
-          -moz-hyphens: auto;
-          -ms-hyphens: auto;
-          hyphens: auto;
-          padding-left: 1%;
-          padding-right: 1%;
-          font-size: 240%;
-          width: 100%;
-        }
-    
-        p2{
-        /* Para Android e iOS */
-          -webkit-hyphens: auto;
-          -moz-hyphens: auto;
-          -ms-hyphens: auto;
-          hyphens: auto;
-          padding-left: 1%;
-          padding-right: 1%;
-          text-indent: 10%;
-          font-size: 240%;
-          width: 100%;
-        }
-    
-        /* Estilos para COLUNAS */
-        /* grid 100%*/
-        .linha {
-          width: 100%;
-          margin: auto;
-          overflow: auto;
-          padding: 0% 0%;
-          }
-        .colunaJA {
-          float: left;
-          }
-        .colJA1 {
-          /* Para Android e iOS */
-          -webkit-hyphens: auto;
-          -moz-hyphens: auto;
-          -ms-hyphens: auto;
-          hyphens: auto;
-          font-size: 145%;
-          width: 50%;
-          text-align: left;
-          padding-left: 0%;
-          }
-        .colJA2 {
-        /* Para Android e iOS */
-          -webkit-hyphens: auto;
-          -moz-hyphens: auto;
-          -ms-hyphens: auto;
-          hyphens: auto;
-          font-size: 145%;
-          width: 50%;
-          text-align: left;
-          padding-right: 0%;
-          }
-    
-        .colJA3 {
-        /* Para Android e iOS */
-          -webkit-hyphens: auto;
-          -moz-hyphens: auto;
-          -ms-hyphens: auto;
-          hyphens: auto;
-          font-size: 208%;
-          width: 90%;
-          text-indent: 1%;
-          padding-left: 10%;
-        }
-          
-        .colJA4 {
-        /* Para Android e iOS */
-          -webkit-hyphens: auto;
-          -moz-hyphens: auto;
-          -ms-hyphens: auto;
-          hyphens: auto;
-          font-size: 208%;
-          width: 90%;
-          text-indent: 0%;
-          padding-left: 10%;
-        }
-        
-        .colser1 {
-          /* Para Android e iOS */
-          -webkit-hyphens: auto;
-          -moz-hyphens: auto;
-          -ms-hyphens: auto;
-          hyphens: auto;
-          text-indent: 1%;
-          padding-left: 10%;
-          font-size: 208%;
-          width: 90%;
-          text-align: left;
-        }
-    
-        /* Estilos para BOTÕES */
-        .btn-Certificados {
-          background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
-          color: red; /* Cor do texto */
-          border: none; /* Sem bordas */
-          text-align: center; /* Alinhamento do texto */
-          text-decoration: none; /* Sem sublinhado */
-          display: block; /* Posição do botão */
-          margin: auto;
-          cursor: pointer; /* Cursor de mão ao passar o mouse */
-          padding: 1% 1%;
-          font-size: 300%;
-          width: 100%;
-        }
-          /* Estilos para BOTÕES */
-        .btn-WhatsApp {
-          background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
-          color: green; /* Cor do texto */
-          margin: auto;
-          cursor: pointer; /* Cursor de mão ao passar o mouse */
-          border: none; /* Sem bordas */
-          text-align: center; /* Alinhamento do texto */
-          text-decoration: none; /* Sem sublinhado */
-          display: block; /* Posição do botão */
-          padding: 1% 1%; /* Espaçamento interno */
-          font-size: 300%; /* Tamanho da fonte */
-          width: 100%;
-        }
-        .btn-Reflexão {
-          background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
-          color: yellow; /* Cor do texto */
-          border: none; /* Sem bordas */
-          text-align: center; /* Alinhamento do texto */
-          text-decoration: none; /* Sem sublinhado */
-          display: block; /* Posição do botão */
-          margin: auto;
-          cursor: pointer; /* Cursor de mão ao passar o mouse */
-          padding: 1% 1%;
-          font-size: 300%;
-          width: 100%;
-        }
-        /* Estilos para BOTÃO */
-        .btn-Fontes {
-          background-color: yellow; /* Cor de fundo do botão */
-          color: brown; /* Cor do texto */
-          border: none; /* Sem bordas */
-          text-align: center; /* Alinhamento do texto */
-          text-decoration: none; /* Sem sublinhado */
-          display: block;
-          margin: auto;
-          cursor: pointer; /* Cursor de mão ao passar o mouse */
-          padding: 1% 1%;
-          font-size: 300%;
-          width: 100%;
-          
-        }
-        /* Estilos para BOTÃO */
-        .btn-Instagram {
-          background-color: rgb(224, 100, 100); /* Cor de fundo do botão */
-          color: rgb(50, 50, 186); /* Cor do texto */
-          border: none; /* Sem bordas */
-          text-align: center; /* Alinhamento do texto */
-          text-decoration: none; /* Sem sublinhado */
-          display: block;
-          margin: auto;
-          cursor: pointer; /* Cursor de mão ao passar o mouse */
-          padding: 1% 1%;
-          font-size: 300%;
-          width: 100%;
-        }
-    
-        /* Estilos para RODAPÉ */
-        footer {
-          display:block;
-          background-color: blue;
-          text-align: center;
-          color: white;
-          padding: 1%;
-          font-size: 120%;
-          overflow: auto;
-          width: 100%;
-        }
-      }
+	.container-principal {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 20px;
+		border-radius: 15px;
+	}
 
-        /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */ /* Laptops */
+	.cronometro-container {
+		margin-bottom: 20px;
+	}
 
-        @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-          body{
-            flex-direction: column;
-            align-items: stretch;
-            justify-content: center;
-            width: 97%;
-          }
-          .navbar {
-            display: flex;
-            padding-right: 2%;
-            overflow: auto;
-            width: 100%;
-          }
-          .logo {
-            font-style: italic;
-            padding-left: 3%;
-            padding-right: 3%;
-          }
-          .menu {
-            list-style: none;
-            margin: auto;
-            padding-left: 1%;
-            padding-right: 1%;
-            display: flex;
-          }
-          .menu li { 
-            padding-left: 2%;
-            padding-right: 2%;
-          }
-      
-          .font {
-            font-family: Arial, Helvetica, sans-serif;
-          }
-          h1{
-            font-size: 360%;
-            text-decoration: underline;
-          }
-          h2{
-            font-size: 350%;
-          }
-          h3{
-            font-size: 320%;
-          }
-          h4{
-            font-size: 310%;
-          }
-          h5{
-            font-size: 300%;
-          }
-      
-          p{
-          /* Para Android e iOS */
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
-            padding-left: 1%;
-            padding-right: 1%;
-            text-align: justify;
-            text-indent: 10%;
-            font-size: 300%;
-            width: 100%;
-          }
-      
-          p1{
-          /* Para Android e iOS */
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
-            padding-left: 1%;
-            padding-right: 1%;
-            font-size: 300%;
-            width: 100%;
-          }
-      
-          p2{
-          /* Para Android e iOS */
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
-            padding-left: 1%;
-            padding-right: 1%;
-            text-indent: 10%;
-            font-size: 300%;
-            width: 100%;
-          }
-      
-          /* Estilos para COLUNAS */
-          /* grid 100%*/
-          .linha {
-            width: 100%;
-            margin: auto;
-            overflow: auto;
-            padding: 0% 0%;
-            }
-          .colunaJA {
-            float: left;
-            }
-          .colJA1 {
-            /* Para Android e iOS */
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
-            font-size: 184%;
-            width: 50%;
-            text-align: left;
-            padding-left: 0%;
-            }
-          .colJA2 {
-          /* Para Android e iOS */
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
-            font-size: 184%;
-            width: 50%;
-            text-align: left;
-            padding-right: 0%;
-            }
-      
-          .colJA3 {
-          /* Para Android e iOS */
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
-            font-size: 270%;
-            width: 89%;
-            text-indent: 1%;
-            padding-left: 11%;
-          }
-            
-          .colJA4 {
-          /* Para Android e iOS */
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
-            font-size: 270%;
-            width: 89%;
-            text-indent: 0%;
-            padding-left: 11%;
-          }
-          
-          .colser1 {
-            /* Para Android e iOS */
-            -webkit-hyphens: auto;
-            -moz-hyphens: auto;
-            -ms-hyphens: auto;
-            hyphens: auto;
-            text-indent: 1%;
-            padding-left: 12%;
-            font-size: 270%;
-            width: 88%;
-            text-align: left;
-          }
-      
-          /* Estilos para BOTÕES */
-          .btn-Certificados {
-            background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
-            color: red; /* Cor do texto */
-            border: none; /* Sem bordas */
-            text-align: center; /* Alinhamento do texto */
-            text-decoration: none; /* Sem sublinhado */
-            display: block; /* Posição do botão */
-            margin: auto;
-            cursor: pointer; /* Cursor de mão ao passar o mouse */
-            padding: 1% 1%;
-            font-size: 400%;
-            width: 100%;
-          }
-            /* Estilos para BOTÕES */
-          .btn-WhatsApp {
-            background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
-            color: green; /* Cor do texto */
-            margin: auto;
-            cursor: pointer; /* Cursor de mão ao passar o mouse */
-            border: none; /* Sem bordas */
-            text-align: center; /* Alinhamento do texto */
-            text-decoration: none; /* Sem sublinhado */
-            display: block; /* Posição do botão */
-            padding: 1% 1%; /* Espaçamento interno */
-            font-size: 400%; /* Tamanho da fonte */
-            width: 100%;
-          }
-          .btn-Reflexão {
-            background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
-            color: yellow; /* Cor do texto */
-            border: none; /* Sem bordas */
-            text-align: center; /* Alinhamento do texto */
-            text-decoration: none; /* Sem sublinhado */
-            display: block; /* Posição do botão */
-            margin: auto;
-            cursor: pointer; /* Cursor de mão ao passar o mouse */
-            padding: 1% 1%;
-            font-size: 400%;
-            width: 100%;
-          }
-          /* Estilos para BOTÃO */
-          .btn-Fontes {
-            background-color: yellow; /* Cor de fundo do botão */
-            color: brown; /* Cor do texto */
-            border: none; /* Sem bordas */
-            text-align: center; /* Alinhamento do texto */
-            text-decoration: none; /* Sem sublinhado */
-            display: block;
-            margin: auto;
-            cursor: pointer; /* Cursor de mão ao passar o mouse */
-            padding: 1% 1%;
-            font-size: 400%;
-            width: 100%;
-          }
-          /* Estilos para BOTÃO */
-          .btn-Instagram {
-            background-color: rgb(224, 100, 100); /* Cor de fundo do botão */
-            color: rgb(50, 50, 186); /* Cor do texto */
-            border: none; /* Sem bordas */
-            text-align: center; /* Alinhamento do texto */
-            text-decoration: none; /* Sem sublinhado */
-            display: block;
-            margin: auto;
-            cursor: pointer; /* Cursor de mão ao passar o mouse */
-            padding: 1% 1%;
-            font-size: 400%;
-            width: 100%;
-          }
-      
-          /* Estilos para RODAPÉ */
-          footer {
-            display:block;
-            background-color: blue;
-            text-align: center;
-            color: white;
-            padding: 1%;
-            font-size: 140%;
-            overflow: auto;
-            width: 100%;
-          }
-        }
+	#cronometro {
+		font-size: clamp(24px, 4vw, 40px);
+		padding: 20px 40px;
+		border-radius: 10px;
+		transition: all 0.5s;
+	}
 
-          /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */ /* Desktops */
+	#cronometro.finalizado {
+		transform: scale(1.2);
+		animation: pulsar 1s infinite alternate;
+	}
 
-          @media only screen and (min-width: 1201px){
-            .containerJA {
-              max-width: 70%; /* Define a largura máxima da página */
-              margin: 0 auto;   /* Centraliza o conteúdo */
-            }
-            .containertec {
-              max-width: 70%; /* Define a largura máxima da página */
-              margin: 0 auto;   /* Centraliza o conteúdo */
-            }
-            .containerser {
-              max-width: 70%; /* Define a largura máxima da página */
-              margin: 0 auto;   /* Centraliza o conteúdo */
-            }
-            body{
-              flex-direction: column;
-              align-items: stretch;
-              justify-content: center;
-            }
-            .navbar {
-              display: flex;
-              padding-right: 2%;
-              overflow: auto;
-              width: 100%;
-            }
-            .logo {
-              font-style: italic;
-              padding-left: 3%;
-              padding-right: 3%;
-            }
-            .menu {
-              list-style: none;
-              margin: auto;
-              padding-left: 1%;
-              padding-right: 1%;
-              display: flex;
-            }
-            .menu li { 
-              padding-left: 2%;
-              padding-right: 2%;
-            }
-        
-            .font {
-              font-family: Arial, Helvetica, sans-serif;
-            }
-            h1{
-              font-size: 310%;
-              text-decoration: underline;
-            }
-            h2{
-              font-size: 300%;
-            }
-            h3{
-              font-size: 300%;
-            }
-            h4{
-              font-size: 300%;
-            }
-            h5{
-              font-size: 300%;
-            }
-        
-            p{
-            /* Para Android e iOS */
-              -webkit-hyphens: auto;
-              -moz-hyphens: auto;
-              -ms-hyphens: auto;
-              hyphens: auto;
-              padding-left: 1%;
-              padding-right: 1%;
-              text-align: justify;
-              text-indent: 10%;
-              font-size: 290%;
-              width: 100%;
-            }
-            p1{
-            /* Para Android e iOS */
-              -webkit-hyphens: auto;
-              -moz-hyphens: auto;
-              -ms-hyphens: auto;
-              hyphens: auto;
-              padding-left: 1%;
-              padding-right: 1%;
-              font-size: 290%;
-              width: 100%;
-            }
-            p2{
-            /* Para Android e iOS */
-              -webkit-hyphens: auto;
-              -moz-hyphens: auto;
-              -ms-hyphens: auto;
-              hyphens: auto;
-              padding-left: 1%;
-              padding-right: 1%;
-              text-indent: 10%;
-              font-size: 290%;
-              width: 100%;
-            }
-        
-            /* Estilos para COLUNAS */
-            /* grid 100%*/
-            .linha {
-              width: 100%;
-              margin: auto;
-              overflow: auto;
-              padding: 0% 0%;
-              }
-            .colunaJA {
-              float: left;
-              }
-            .colJA1 {
-              /* Para Android e iOS */
-              -webkit-hyphens: auto;
-              -moz-hyphens: auto;
-              -ms-hyphens: auto;
-              hyphens: auto;
-              font-size: 170%;
-              width: 50%;
-              text-align: left;
-              padding-left: 0%;
-              }
-            .colJA2 {
-            /* Para Android e iOS */
-              -webkit-hyphens: auto;
-              -moz-hyphens: auto;
-              -ms-hyphens: auto;
-              hyphens: auto;
-              font-size: 170%;
-              width: 50%;
-              text-align: left;
-              padding-right: 0%;
-              }
-        
-            .colJA3 {
-            /* Para Android e iOS */
-              -webkit-hyphens: auto;
-              -moz-hyphens: auto;
-              -ms-hyphens: auto;
-              hyphens: auto;
-              font-size: 260%;
-              width: 89%;
-              text-indent: 1%;
-              padding-left: 11%;
-            }
-              
-            .colJA4 {
-            /* Para Android e iOS */
-              -webkit-hyphens: auto;
-              -moz-hyphens: auto;
-              -ms-hyphens: auto;
-              hyphens: auto;
-              font-size: 260%;
-              width: 89%;
-              text-indent: 0%;
-              padding-left: 11%;
-            }
-            
-            .colser1 {
-              /* Para Android e iOS */
-              -webkit-hyphens: auto;
-              -moz-hyphens: auto;
-              -ms-hyphens: auto;
-              hyphens: auto;
-              text-indent: 1%;
-              padding-left: 12%;
-              font-size: 260%;
-              width: 88%;
-              text-align: left;
-            }
-        
-            /* Estilos para BOTÕES */
-            .btn-Certificados {
-              background-color: rgb(247, 247, 102); /* Cor de fundo do botão */
-              color: red; /* Cor do texto */
-              border: none; /* Sem bordas */
-              text-align: center; /* Alinhamento do texto */
-              text-decoration: none; /* Sem sublinhado */
-              display: block; /* Posição do botão */
-              margin: auto;
-              cursor: pointer; /* Cursor de mão ao passar o mouse */
-              padding: 1% 1%;
-              font-size: 400%;
-              width: 100%;
-            }
-              /* Estilos para BOTÕES */
-            .btn-WhatsApp {
-              background-color: rgb(81, 219, 81); /* Cor de fundo do botão */
-              color: green; /* Cor do texto */
-              margin: auto;
-              cursor: pointer; /* Cursor de mão ao passar o mouse */
-              border: none; /* Sem bordas */
-              text-align: center; /* Alinhamento do texto */
-              text-decoration: none; /* Sem sublinhado */
-              display: block; /* Posição do botão */
-              padding: 1% 1%; /* Espaçamento interno */
-              font-size: 400%; /* Tamanho da fonte */
-              width: 100%;
-            }
-            .btn-Reflexão {
-              background-color: rgb(90, 90, 245); /* Cor de fundo do botão */
-              color: yellow; /* Cor do texto */
-              border: none; /* Sem bordas */
-              text-align: center; /* Alinhamento do texto */
-              text-decoration: none; /* Sem sublinhado */
-              display: block; /* Posição do botão */
-              margin: auto;
-              cursor: pointer; /* Cursor de mão ao passar o mouse */
-              padding: 1% 1%;
-              font-size: 400%;
-              width: 100%;
-            }
-            /* Estilos para BOTÃO */
-            .btn-Fontes {
-              background-color: yellow; /* Cor de fundo do botão */
-              color: brown; /* Cor do texto */
-              border: none; /* Sem bordas */
-              text-align: center; /* Alinhamento do texto */
-              text-decoration: none; /* Sem sublinhado */
-              display: block;
-              margin: auto;
-              cursor: pointer; /* Cursor de mão ao passar o mouse */
-              padding: 1% 1%;
-              font-size: 400%;
-              width: 100%;
-            }
-            /* Estilos para BOTÃO */
-            .btn-Instagram {
-              background-color: rgb(224, 100, 100); /* Cor de fundo do botão */
-              color: rgb(50, 50, 186); /* Cor do texto */
-              border: none; /* Sem bordas */
-              text-align: center; /* Alinhamento do texto */
-              text-decoration: none; /* Sem sublinhado */
-              display: block;
-              margin: auto;
-              cursor: pointer; /* Cursor de mão ao passar o mouse */
-              padding: 1% 1%;
-              font-size: 400%;
-              width: 100%;
-            }
+	@keyframes pulsar {
+		from {
+			transform: scale(1.2);
+		}
 
-            .form-container {
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              flex-direction: column;
-              font-size: 170%;
-            }
-      
-            input[type="text"],
-            input[type="email"],
-            input[type="tel"],
-            textarea {
-              width: 100%;
-              max-width: 100%;
-              padding: 1%;
-              margin: 5px 0;
-              box-sizing: border-box;
-              border: 2px solid #ccc;
-              border-radius: 1%;
-              font-size: 100%;
-            }
-      
-            input[type="submit"] {
-              background-color: #4CAF50;
-              color: white;
-              padding: 10px 20px;
-              border: none;
-              border-radius: 4px;
-              cursor: pointer;
-              margin-top: 10px;
-              width: 100%;
-              font-size: 100%;
-            }
-      
-            input[type="submit"]:hover {
-              background-color: green;
-            }
-            
-    
-            /* Estilos para RODAPÉ */
-            footer {
-              display:block;
-              background-color: blue;
-              text-align: center;
-              color: white;
-              padding: 1%;
-              font-size: 120%;
-              overflow: auto;
-              width: 100%;
-            }
-          }
+		to {
+			transform: scale(1.3);
+		}
+	}
+
+	#mensagem-sorteio {
+		font-size: clamp(20px, 4vw, 40px);
+		margin-bottom: 20px;
+		animation: fadeInOut 1.5s infinite;
+	}
+
+	@keyframes fadeInOut {
+
+		0%,
+		100% {
+			opacity: 0;
+		}
+
+		50% {
+			opacity: 1;
+		}
+	}
+
+	.resultado-sorteio {
+		font-size: 1.5rem;
+		margin-top: 10px;
+		width: 80%;
+	}
+
+	.resultado-sorteio h2 {
+		margin-bottom: 10px;
+
+	}
+
+	.resultado-sorteio p {
+		margin: 5px 0;
+
+	}
+
+	/* Estilo do Cabeçalho */
+	nav {
+		padding: 1% 0;
+		text-align: center;
+		margin: 0 1%;
+	}
+
+	nav .logo {
+		margin-right: auto;
+		border-radius: 10px;
+		padding: 1%;
+		margin: 0 1%;
+	}
+
+	nav .logo a {
+		font-family: 'Georgia', 'Times New Roman', Times, serif;
+		font-size: 200%;
+		text-decoration: none;
+		margin: 0 1%;
+	}
+
+	nav ul {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 0 1%;
+	}
+
+	nav ul li {
+		width: 40%;
+		margin: 0 20px;
+		border-radius: 10px;
+		padding: 1%;
+	}
+
+	nav ul li a {
+		text-decoration: none;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+	nav ul li a.disabled {
+		pointer-events: none;
+	}
+
+	/* Estilos para Títulos */
+	h1,
+	h3,
+	h4,
+	h5 {
+		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: clamp(20px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: center;
+		margin: 0.5em 0;
+	}
+
+	h2 {
+		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: center;
+		margin: 0.5em 0;
+	}
+
+	/* Estilos para Parágrafos */
+	.p1,
+	.p2,
+	.p3,
+	.p4,
+	.p5 {
+		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		hyphens: auto;
+		text-align: justify;
+		margin: 0 1%;
+		text-indent: 10%;
+		font-size: clamp(14px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+
+
+	/* Estilos para os Botões do cabeçalho */
+	.btn-tecnologia,
+	.btn-serigrafia {
+		width: 42%;
+		font-size: clamp(12px, 3vw, 16px);
+		/* Ajuste dinâmico do tamanho da fonte */
+		border: none;
+		padding: 10px 20px;
+		/* Ajuste proporcional do preenchimento */
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		margin: 5px;
+		/* Adiciona espaço entre os botões */
+		cursor: pointer;
+		border-radius: 8px;
+		/* Bordas levemente arredondadas */
+	}
+
+	.btn-tecnologia:hover,
+	.btn-serigrafia:hover {
+		transform: scale(1.05);
+		/* Leve aumento no tamanho ao passar o mouse */
+	}
+
+	.btn1,
+	.btn2 {
+		width: 80%;
+		border: none;
+		padding: 1% 10%;
+		text-align: center;
+		text-decoration: none;
+		cursor: pointer;
+		border-radius: 10px;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-size: clamp(20px, 4vw, 40px);
+	}
+
+	.btn1:hover,
+	.btn2:hover {
+		transform: scale(1.1);
+	}
+
+	.btn3 {
+		border: none;
+		padding: 5% 10%;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 1.6rem;
+		margin: 2%;
+		cursor: pointer;
+		border-radius: 4%;
+	}
+
+	.btn3:hover {
+		transform: scale(1.1);
+	}
+
+	.btn-enviar {
+		border: none;
+		padding: 1% 8%;
+		text-align: center;
+		text-decoration: none;
+		display: flex;
+		font-size: 100%;
+		margin: 2%;
+		cursor: pointer;
+		border-radius: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* Estilo da Imagem Jeferson Alves */
+	.containerJA {
+		display: flex;
+		align-items: flex-start;
+		margin-top: 0%;
+		/* Espaço de 1% acima do container principal */
+	}
+
+	.weather-info {
+		hyphens: auto;
+		width: 70%;
+		margin-left: 1%;
+		margin-top: 0%;
+		/* Espaço de 1% acima do container do texto */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		display: flex;
+		/* Habilita ajuste baseado em imagem */
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	img {
+		width: 30%;
+		height: auto;
+		margin-left: 1%;
+		margin-top: 0%;
+		/* Espaço de 1% acima da imagem */
+	}
+
+	/* Estilo das colunas */
+	.row {
+		display: flex;
+		/* Define o layout flexível */
+		justify-content: space-between;
+		/* Espaça as colunas uniformemente */
+		width: 100%;
+		margin: 0 auto;
+		/* Centraliza horizontalmente */
+		flex-wrap: wrap;
+		/* Permite quebra de linha em telas menores */
+	}
+
+	.column {
+		hyphens: auto;
+		width: 50%;
+		/* Cada coluna ocupa aproximadamente metade da largura */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: left;
+		padding: 0px;
+		/* Espaço interno para melhorar a legibilidade */
+		box-sizing: border-box;
+		/* Inclui padding na largura */
+	}
+
+	ul {
+		list-style-type: disc;
+		/* Mantenha os marcadores padrão */
+		padding-left: 20px;
+		/* Ajusta o espaço à esquerda */
+		margin: 0px 0;
+		/* Adiciona espaçamento acima e abaixo da lista */
+	}
+
+	li {
+		margin-bottom: 0px;
+		/* Reduz o espaço entre itens da lista */
+		font-size: clamp(0.8em, 2vw, 1em);
+		/* Itens da lista também têm fonte responsiva */
+	}
+
+	/* Estilos para Containers */
+	.code-container {
+		border-radius: 10px;
+		width: 90%;
+		margin: 10px auto;
+		padding: 5px;
+		overflow-x: auto;
+	}
+
+	.container2,
+	.container3 {
+		font-family: 'Verdana', sans-serif;
+		/* Alternativa moderna à 'Tahoma' */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		max-width: 90%;
+		/* Garante que os containers respeitem a largura máxima */
+		margin: 0 auto;
+		/* Centraliza os containers */
+		padding: 1%;
+		/* Adiciona espaçamento interno */
+		line-height: 0 .6;
+		/* Melhora a legibilidade do texto */
+	}
+
+	.container4 {
+		max-width: 80%;
+		margin: 20px auto;
+		padding: 20px;
+		border-radius: 8px;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+	/* Estilo do Formulário */
+	.form-container {
+		padding: 20px;
+		border-radius: 8px;
+	}
+
+	.form-field {
+		margin-bottom: 20px;
+	}
+
+	.form-field label {
+		display: block;
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+
+	.form-field input,
+	.form-field textarea {
+		font-family: 'Arial', sans-serif;
+		width: 100%;
+		padding: 10px;
+		border-radius: 5px;
+		font-size: 110%;
+	}
+
+	/* Estilo do Rodapé */
+	footer {
+		text-align: center;
+		margin-top: 20px;
+		padding: 10px;
+		border-radius: 4px;
+		width: 90%;
+		margin: 20px auto;
+		font-size: 80%;
+	}
+}
+
+
+/* Tablet */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+	/* Estilos Gerais */
+	/*identação do código (Shift + Alt + F)*/
+	body {
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	/* Estilização para a lista de participantes */
+	#lista-participantes {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		list-style-type: none;
+		/* Remove os marcadores */
+		padding: 0;
+		font-size: 3vw;
+		/* Ajusta o tamanho da fonte com base na largura da tela */
+		border-radius: 10px;
+	}
+
+	/* Ajustes para containers de números */
+	.numbers-container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 0.5vw;
+		/* Define o espaçamento com unidade responsiva */
+		margin-top: 1vw;
+
+	}
+
+	/* Estilização para botões */
+	.number-btn {
+		width: 10vw;
+		/* Ajusta o tamanho dos botões em relação à largura da tela */
+		height: 10vw;
+		/* Mantém os botões proporcionais */
+		border: none;
+		border-radius: 50%;
+		/* Torna os botões circulares */
+		font-size: 4vw;
+		cursor: pointer;
+
+	}
+
+	.number-btn:disabled {
+		cursor: not-allowed;
+	}
+
+	/* Estilização para o resumo */
+	.summary {
+		margin-top: 2vw;
+		padding: 3vw;
+		border-radius: 1vw;
+	}
+
+	.summary p {
+		margin: 1.5vw 0;
+		font-size: 2.5vw;
+		/* Tamanho da fonte responsivo */
+	}
+
+	.container-principal {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 20px;
+		border-radius: 15px;
+	}
+
+	.cronometro-container {
+		margin-bottom: 20px;
+	}
+
+	#cronometro {
+		font-size: clamp(24px, 4vw, 40px);
+		padding: 20px 40px;
+		border-radius: 10px;
+		transition: all 0.5s;
+	}
+
+	#cronometro.finalizado {
+		transform: scale(1.2);
+		animation: pulsar 1s infinite alternate;
+	}
+
+	@keyframes pulsar {
+		from {
+			transform: scale(1.2);
+		}
+
+		to {
+			transform: scale(1.3);
+		}
+	}
+
+	#mensagem-sorteio {
+		font-size: clamp(20px, 4vw, 40px);
+		margin-bottom: 20px;
+		animation: fadeInOut 1.5s infinite;
+	}
+
+	@keyframes fadeInOut {
+
+		0%,
+		100% {
+			opacity: 0;
+		}
+
+		50% {
+			opacity: 1;
+		}
+	}
+
+	.resultado-sorteio {
+		font-size: 1.5rem;
+		margin-top: 10px;
+		width: 80%;
+	}
+
+	.resultado-sorteio h2 {
+		margin-bottom: 10px;
+
+	}
+
+	.resultado-sorteio p {
+		margin: 5px 0;
+
+	}
+
+	/* Estilo do Cabeçalho */
+	nav {
+		padding: 1% 0;
+		text-align: center;
+		margin: 0 1%;
+	}
+
+	nav .logo {
+		margin-right: auto;
+		border-radius: 10px;
+		padding: 1%;
+		margin: 0 1%;
+	}
+
+	nav .logo a {
+		font-family: 'Georgia', 'Times New Roman', Times, serif;
+		font-size: 200%;
+		text-decoration: none;
+		margin: 0 1%;
+	}
+
+	nav ul {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 0 1%;
+	}
+
+	nav ul li {
+		width: 40%;
+		margin: 0 20px;
+		border-radius: 10px;
+		padding: 1%;
+	}
+
+	nav ul li a {
+		text-decoration: none;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+	nav ul li a.disabled {
+		pointer-events: none;
+	}
+
+	/* Estilos para Títulos */
+	h1,
+	h3,
+	h4,
+	h5 {
+		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: clamp(20px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: center;
+		margin: 0.5em 0;
+	}
+
+	h2 {
+		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: center;
+		margin: 0.5em 0;
+	}
+
+	/* Estilos para Parágrafos */
+	.p1,
+	.p2,
+	.p3,
+	.p4,
+	.p5 {
+		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		hyphens: auto;
+		text-align: justify;
+		margin: 0 1%;
+		text-indent: 10%;
+		font-size: clamp(14px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+
+
+	/* Estilos para os Botões do cabeçalho */
+	.btn-tecnologia,
+	.btn-serigrafia {
+		width: 42%;
+		font-size: clamp(12px, 3vw, 16px);
+		/* Ajuste dinâmico do tamanho da fonte */
+		border: none;
+		padding: 10px 20px;
+		/* Ajuste proporcional do preenchimento */
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		margin: 5px;
+		/* Adiciona espaço entre os botões */
+		cursor: pointer;
+		border-radius: 8px;
+		/* Bordas levemente arredondadas */
+	}
+
+	.btn-tecnologia:hover,
+	.btn-serigrafia:hover {
+		transform: scale(1.05);
+		/* Leve aumento no tamanho ao passar o mouse */
+	}
+
+	.btn1,
+	.btn2 {
+		width: 80%;
+		border: none;
+		padding: 1% 10%;
+		text-align: center;
+		text-decoration: none;
+		cursor: pointer;
+		border-radius: 10px;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-size: clamp(20px, 4vw, 40px);
+	}
+
+	.btn1:hover,
+	.btn2:hover {
+		transform: scale(1.1);
+	}
+
+	.btn3 {
+		border: none;
+		padding: 5% 10%;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 1.6rem;
+		margin: 2%;
+		cursor: pointer;
+		border-radius: 4%;
+	}
+
+	.btn3:hover {
+		transform: scale(1.1);
+	}
+
+	.btn-enviar {
+		border: none;
+		padding: 1% 8%;
+		text-align: center;
+		text-decoration: none;
+		display: flex;
+		font-size: 100%;
+		margin: 2%;
+		cursor: pointer;
+		border-radius: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* Estilo da Imagem Jeferson Alves */
+	.containerJA {
+		display: flex;
+		align-items: flex-start;
+		margin-top: 0%;
+		/* Espaço de 1% acima do container principal */
+	}
+
+	.weather-info {
+		hyphens: auto;
+		width: 70%;
+		margin-left: 1%;
+		margin-top: 0%;
+		/* Espaço de 1% acima do container do texto */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		display: flex;
+		/* Habilita ajuste baseado em imagem */
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	img {
+		width: 30%;
+		height: auto;
+		margin-left: 1%;
+		margin-top: 0%;
+		/* Espaço de 1% acima da imagem */
+	}
+
+	/* Estilo das colunas */
+	.row {
+		display: flex;
+		/* Define o layout flexível */
+		justify-content: space-between;
+		/* Espaça as colunas uniformemente */
+		width: 100%;
+		margin: 0 auto;
+		/* Centraliza horizontalmente */
+		flex-wrap: wrap;
+		/* Permite quebra de linha em telas menores */
+	}
+
+	.column {
+		hyphens: auto;
+		width: 50%;
+		/* Cada coluna ocupa aproximadamente metade da largura */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: left;
+		padding: 0px;
+		/* Espaço interno para melhorar a legibilidade */
+		box-sizing: border-box;
+		/* Inclui padding na largura */
+	}
+
+	ul {
+		list-style-type: disc;
+		/* Mantenha os marcadores padrão */
+		padding-left: 20px;
+		/* Ajusta o espaço à esquerda */
+		margin: 0px 0;
+		/* Adiciona espaçamento acima e abaixo da lista */
+	}
+
+	li {
+		margin-bottom: 0px;
+		/* Reduz o espaço entre itens da lista */
+		font-size: clamp(0.8em, 2vw, 1em);
+		/* Itens da lista também têm fonte responsiva */
+	}
+
+	/* Estilos para Containers */
+	.code-container {
+		border-radius: 10px;
+		width: 90%;
+		margin: 10px auto;
+		padding: 5px;
+		overflow-x: auto;
+	}
+
+	.container2,
+	.container3 {
+		font-family: 'Verdana', sans-serif;
+		/* Alternativa moderna à 'Tahoma' */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		max-width: 90%;
+		/* Garante que os containers respeitem a largura máxima */
+		margin: 0 auto;
+		/* Centraliza os containers */
+		padding: 1%;
+		/* Adiciona espaçamento interno */
+		line-height: 0 .6;
+		/* Melhora a legibilidade do texto */
+	}
+
+	.container4 {
+		max-width: 80%;
+		margin: 20px auto;
+		padding: 20px;
+		border-radius: 8px;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+	/* Estilo do Formulário */
+	.form-container {
+		padding: 20px;
+		border-radius: 8px;
+	}
+
+	.form-field {
+		margin-bottom: 20px;
+	}
+
+	.form-field label {
+		display: block;
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+
+	.form-field input,
+	.form-field textarea {
+		font-family: 'Arial', sans-serif;
+		width: 100%;
+		padding: 10px;
+		border-radius: 5px;
+		font-size: 110%;
+	}
+
+	/* Estilo do Rodapé */
+	footer {
+		text-align: center;
+		margin-top: 20px;
+		padding: 10px;
+		border-radius: 4px;
+		width: 90%;
+		margin: 20px auto;
+		font-size: 80%;
+	}
+}
+
+
+/* Laptops */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+
+	/* Estilos Gerais */
+	/*identação do código (Shift + Alt + F)*/
+	body {
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	/* Estilização para a lista de participantes */
+	#lista-participantes {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		list-style-type: none;
+		/* Remove os marcadores */
+		padding: 0;
+		font-size: 3vw;
+		/* Ajusta o tamanho da fonte com base na largura da tela */
+		border-radius: 10px;
+	}
+
+	/* Ajustes para containers de números */
+	.numbers-container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 0.5vw;
+		/* Define o espaçamento com unidade responsiva */
+		margin-top: 1vw;
+
+	}
+
+	/* Estilização para botões */
+	.number-btn {
+		width: 10vw;
+		/* Ajusta o tamanho dos botões em relação à largura da tela */
+		height: 10vw;
+		/* Mantém os botões proporcionais */
+		border: none;
+		border-radius: 50%;
+		/* Torna os botões circulares */
+		font-size: 4vw;
+		cursor: pointer;
+
+	}
+
+	.number-btn:disabled {
+		cursor: not-allowed;
+	}
+
+	/* Estilização para o resumo */
+	.summary {
+		margin-top: 2vw;
+		padding: 3vw;
+		border-radius: 1vw;
+	}
+
+	.summary p {
+		margin: 1.5vw 0;
+		font-size: 2.5vw;
+		/* Tamanho da fonte responsivo */
+	}
+
+	.container-principal {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 20px;
+		border-radius: 15px;
+	}
+
+	.cronometro-container {
+		margin-bottom: 20px;
+	}
+
+	#cronometro {
+		font-size: clamp(24px, 4vw, 40px);
+		padding: 20px 40px;
+		border-radius: 10px;
+		transition: all 0.5s;
+	}
+
+	#cronometro.finalizado {
+		transform: scale(1.2);
+		animation: pulsar 1s infinite alternate;
+	}
+
+	@keyframes pulsar {
+		from {
+			transform: scale(1.2);
+		}
+
+		to {
+			transform: scale(1.3);
+		}
+	}
+
+	#mensagem-sorteio {
+		font-size: clamp(20px, 4vw, 40px);
+		margin-bottom: 20px;
+		animation: fadeInOut 1.5s infinite;
+	}
+
+	@keyframes fadeInOut {
+
+		0%,
+		100% {
+			opacity: 0;
+		}
+
+		50% {
+			opacity: 1;
+		}
+	}
+
+	.resultado-sorteio {
+		font-size: 1.5rem;
+		margin-top: 10px;
+		width: 80%;
+	}
+
+	.resultado-sorteio h2 {
+		margin-bottom: 10px;
+
+	}
+
+	.resultado-sorteio p {
+		margin: 5px 0;
+
+	}
+
+	/* Estilo do Cabeçalho */
+	nav {
+		padding: 1% 0;
+		text-align: center;
+		margin: 0 1%;
+	}
+
+	nav .logo {
+		margin-right: auto;
+		border-radius: 10px;
+		padding: 1%;
+		margin: 0 1%;
+	}
+
+	nav .logo a {
+		font-family: 'Georgia', 'Times New Roman', Times, serif;
+		font-size: 200%;
+		text-decoration: none;
+		margin: 0 1%;
+	}
+
+	nav ul {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 0 1%;
+	}
+
+	nav ul li {
+		width: 40%;
+		margin: 0 20px;
+		border-radius: 10px;
+		padding: 1%;
+	}
+
+	nav ul li a {
+		text-decoration: none;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+	nav ul li a.disabled {
+		pointer-events: none;
+	}
+
+	/* Estilos para Títulos */
+	h1,
+	h3,
+	h4,
+	h5 {
+		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: clamp(20px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: center;
+		margin: 0.5em 0;
+	}
+
+	h2 {
+		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: center;
+		margin: 0.5em 0;
+	}
+
+	/* Estilos para Parágrafos */
+	.p1,
+	.p2,
+	.p3,
+	.p4,
+	.p5 {
+		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		hyphens: auto;
+		text-align: justify;
+		margin: 0 1%;
+		text-indent: 10%;
+		font-size: clamp(14px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+
+
+	/* Estilos para os Botões do cabeçalho */
+	.btn-tecnologia,
+	.btn-serigrafia {
+		width: 42%;
+		font-size: clamp(12px, 3vw, 16px);
+		/* Ajuste dinâmico do tamanho da fonte */
+		border: none;
+		padding: 10px 20px;
+		/* Ajuste proporcional do preenchimento */
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		margin: 5px;
+		/* Adiciona espaço entre os botões */
+		cursor: pointer;
+		border-radius: 8px;
+		/* Bordas levemente arredondadas */
+	}
+
+	.btn-tecnologia:hover,
+	.btn-serigrafia:hover {
+		transform: scale(1.05);
+		/* Leve aumento no tamanho ao passar o mouse */
+	}
+
+	.btn1,
+	.btn2 {
+		width: 80%;
+		border: none;
+		padding: 1% 10%;
+		text-align: center;
+		text-decoration: none;
+		cursor: pointer;
+		border-radius: 10px;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-size: clamp(20px, 4vw, 40px);
+	}
+
+	.btn1:hover,
+	.btn2:hover {
+		transform: scale(1.1);
+	}
+
+	.btn3 {
+		border: none;
+		padding: 5% 10%;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 1.6rem;
+		margin: 2%;
+		cursor: pointer;
+		border-radius: 4%;
+	}
+
+	.btn3:hover {
+		transform: scale(1.1);
+	}
+
+	.btn-enviar {
+		border: none;
+		padding: 1% 8%;
+		text-align: center;
+		text-decoration: none;
+		display: flex;
+		font-size: 100%;
+		margin: 2%;
+		cursor: pointer;
+		border-radius: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* Estilo da Imagem Jeferson Alves */
+	.containerJA {
+		display: flex;
+		align-items: flex-start;
+		margin-top: 0%;
+		/* Espaço de 1% acima do container principal */
+	}
+
+	.weather-info {
+		hyphens: auto;
+		width: 70%;
+		margin-left: 1%;
+		margin-right: 1%;
+		margin-top: 0%;
+		/* Espaço de 1% acima do container do texto */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		display: flex;
+		/* Habilita ajuste baseado em imagem */
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	img {
+		width: 30%;
+		height: auto;
+		margin-left: 1%;
+		margin-top: 0%;
+		/* Espaço de 1% acima da imagem */
+	}
+
+	/* Estilo das colunas */
+	.row {
+		display: flex;
+		/* Define o layout flexível */
+		justify-content: space-between;
+		/* Espaça as colunas uniformemente */
+		width: 100%;
+		margin: 0 auto;
+		/* Centraliza horizontalmente */
+		flex-wrap: wrap;
+		/* Permite quebra de linha em telas menores */
+	}
+
+	.column {
+		hyphens: auto;
+		width: 50%;
+		/* Cada coluna ocupa aproximadamente metade da largura */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: left;
+		padding: 0px;
+		/* Espaço interno para melhorar a legibilidade */
+		box-sizing: border-box;
+		/* Inclui padding na largura */
+	}
+
+	ul {
+		list-style-type: disc;
+		/* Mantenha os marcadores padrão */
+		padding-left: 20px;
+		/* Ajusta o espaço à esquerda */
+		margin: 0px 0;
+		/* Adiciona espaçamento acima e abaixo da lista */
+	}
+
+	li {
+		margin-bottom: 0px;
+		/* Reduz o espaço entre itens da lista */
+		font-size: clamp(0.8em, 2vw, 1em);
+		/* Itens da lista também têm fonte responsiva */
+	}
+
+	/* Estilos para Containers */
+	.code-container {
+		border-radius: 10px;
+		width: 90%;
+		margin: 10px auto;
+		padding: 5px;
+		overflow-x: auto;
+	}
+
+	.container2,
+	.container3 {
+		font-family: 'Verdana', sans-serif;
+		/* Alternativa moderna à 'Tahoma' */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		max-width: 90%;
+		/* Garante que os containers respeitem a largura máxima */
+		margin: 0 auto;
+		/* Centraliza os containers */
+		padding: 1%;
+		/* Adiciona espaçamento interno */
+		line-height: 0 .6;
+		/* Melhora a legibilidade do texto */
+	}
+
+	.container4 {
+		max-width: 80%;
+		margin: 20px auto;
+		padding: 20px;
+		border-radius: 8px;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+	/* Estilo do Formulário */
+	.form-container {
+		padding: 20px;
+		border-radius: 8px;
+	}
+
+	.form-field {
+		margin-bottom: 20px;
+	}
+
+	.form-field label {
+		display: block;
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+
+	.form-field input,
+	.form-field textarea {
+		font-family: 'Arial', sans-serif;
+		width: 100%;
+		padding: 10px;
+		border-radius: 5px;
+		font-size: 110%;
+	}
+
+	/* Estilo do Rodapé */
+	footer {
+		text-align: center;
+		margin-top: 20px;
+		padding: 10px;
+		border-radius: 4px;
+		width: 90%;
+		margin: 20px auto;
+		font-size: 80%;
+	}
+}
+
+
+/* Desktops TVS*/
+@media only screen and (min-width: 1201px) {
+
+	/* Estilos Gerais */
+	/*identação do código (Shift + Alt + F)*/
+	body {
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	/* Estilização para a lista de participantes */
+	#lista-participantes {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		list-style-type: none;
+		/* Remove os marcadores */
+		padding: 0;
+		font-size: 3vw;
+		/* Ajusta o tamanho da fonte com base na largura da tela */
+		border-radius: 10px;
+	}
+
+	/* Ajustes para containers de números */
+	.numbers-container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 0.5vw;
+		/* Define o espaçamento com unidade responsiva */
+		margin-top: 1vw;
+
+	}
+
+	/* Estilização para botões */
+	.number-btn {
+		width: 10vw;
+		/* Ajusta o tamanho dos botões em relação à largura da tela */
+		height: 10vw;
+		/* Mantém os botões proporcionais */
+		border: none;
+		border-radius: 50%;
+		/* Torna os botões circulares */
+		font-size: 4vw;
+		cursor: pointer;
+
+	}
+
+	.number-btn:disabled {
+		cursor: not-allowed;
+	}
+
+	/* Estilização para o resumo */
+	.summary {
+		margin-top: 2vw;
+		padding: 3vw;
+		border-radius: 1vw;
+	}
+
+	.summary p {
+		margin: 1.5vw 0;
+		font-size: 2.5vw;
+		/* Tamanho da fonte responsivo */
+	}
+
+	.container-principal {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding: 20px;
+		border-radius: 15px;
+	}
+
+	.cronometro-container {
+		margin-bottom: 20px;
+	}
+
+	#cronometro {
+		font-size: clamp(24px, 4vw, 40px);
+		padding: 20px 40px;
+		border-radius: 10px;
+		transition: all 0.5s;
+	}
+
+	#cronometro.finalizado {
+		transform: scale(1.2);
+		animation: pulsar 1s infinite alternate;
+	}
+
+	@keyframes pulsar {
+		from {
+			transform: scale(1.2);
+		}
+
+		to {
+			transform: scale(1.3);
+		}
+	}
+
+	#mensagem-sorteio {
+		font-size: clamp(20px, 4vw, 40px);
+		margin-bottom: 20px;
+		animation: fadeInOut 1.5s infinite;
+	}
+
+	@keyframes fadeInOut {
+
+		0%,
+		100% {
+			opacity: 0;
+		}
+
+		50% {
+			opacity: 1;
+		}
+	}
+
+	.resultado-sorteio {
+		font-size: 1.5rem;
+		margin-top: 10px;
+		width: 80%;
+	}
+
+	.resultado-sorteio h2 {
+		margin-bottom: 10px;
+
+	}
+
+	.resultado-sorteio p {
+		margin: 5px 0;
+
+	}
+
+	/* Estilo do Cabeçalho */
+	nav {
+		padding: 1% 0;
+		text-align: center;
+		margin: 0 1%;
+	}
+
+	nav .logo {
+		margin-right: auto;
+		border-radius: 10px;
+		padding: 1%;
+		margin: 0 1%;
+	}
+
+	nav .logo a {
+		font-family: 'Georgia', 'Times New Roman', Times, serif;
+		font-size: 200%;
+		text-decoration: none;
+		margin: 0 1%;
+	}
+
+	nav ul {
+		list-style: none;
+		display: flex;
+		justify-content: center;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 0 1%;
+	}
+
+	nav ul li {
+		width: 40%;
+		margin: 0 20px;
+		border-radius: 10px;
+		padding: 1%;
+	}
+
+	nav ul li a {
+		text-decoration: none;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+	nav ul li a.disabled {
+		pointer-events: none;
+	}
+
+	/* Estilos para Títulos */
+	h1,
+	h3,
+	h4,
+	h5 {
+		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: clamp(20px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: center;
+		margin: 0.5em 0;
+	}
+
+	h2 {
+		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: center;
+		margin: 0.5em 0;
+	}
+
+	/* Estilos para Parágrafos */
+	.p1,
+	.p2,
+	.p3,
+	.p4,
+	.p5 {
+		font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+		hyphens: auto;
+		text-align: justify;
+		margin: 0 1%;
+		text-indent: 10%;
+		font-size: clamp(14px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+
+
+	/* Estilos para os Botões do cabeçalho */
+	.btn-tecnologia,
+	.btn-serigrafia {
+		width: 42%;
+		font-size: clamp(12px, 3vw, 16px);
+		/* Ajuste dinâmico do tamanho da fonte */
+		border: none;
+		padding: 10px 20px;
+		/* Ajuste proporcional do preenchimento */
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		margin: 5px;
+		/* Adiciona espaço entre os botões */
+		cursor: pointer;
+		border-radius: 8px;
+		/* Bordas levemente arredondadas */
+	}
+
+	.btn-tecnologia:hover,
+	.btn-serigrafia:hover {
+		transform: scale(1.05);
+		/* Leve aumento no tamanho ao passar o mouse */
+	}
+
+	.btn1,
+	.btn2 {
+		width: 80%;
+		border: none;
+		padding: 1% 10%;
+		text-align: center;
+		text-decoration: none;
+		cursor: pointer;
+		border-radius: 10px;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-size: clamp(20px, 4vw, 40px);
+	}
+
+	.btn1:hover,
+	.btn2:hover {
+		transform: scale(1.1);
+	}
+
+	.btn3 {
+		border: none;
+		padding: 5% 10%;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 1.6rem;
+		margin: 2%;
+		cursor: pointer;
+		border-radius: 4%;
+	}
+
+	.btn3:hover {
+		transform: scale(1.1);
+	}
+
+	.btn-enviar {
+		border: none;
+		padding: 1% 8%;
+		text-align: center;
+		text-decoration: none;
+		display: flex;
+		font-size: 100%;
+		margin: 2%;
+		cursor: pointer;
+		border-radius: 10px;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* Estilo da Imagem Jeferson Alves */
+	.containerJA {
+		display: flex;
+		align-items: flex-start;
+		margin-top: 0%;
+		/* Espaço de 1% acima do container principal */
+	}
+
+	.weather-info {
+		hyphens: auto;
+		width: 70%;
+		margin-left: 1%;
+		margin-top: 0%;
+		/* Espaço de 1% acima do container do texto */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		display: flex;
+		/* Habilita ajuste baseado em imagem */
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	img {
+		width: 30%;
+		height: auto;
+		margin-left: 1%;
+		margin-top: 0%;
+		/* Espaço de 1% acima da imagem */
+	}
+
+	/* Estilo das colunas */
+	.row {
+		display: flex;
+		/* Define o layout flexível */
+		justify-content: space-between;
+		/* Espaça as colunas uniformemente */
+		width: 100%;
+		margin: 0 auto;
+		/* Centraliza horizontalmente */
+		flex-wrap: wrap;
+		/* Permite quebra de linha em telas menores */
+	}
+
+	.column {
+		hyphens: auto;
+		width: 50%;
+		/* Cada coluna ocupa aproximadamente metade da largura */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		text-align: left;
+		padding: 0px;
+		/* Espaço interno para melhorar a legibilidade */
+		box-sizing: border-box;
+		/* Inclui padding na largura */
+	}
+
+	ul {
+		list-style-type: disc;
+		/* Mantenha os marcadores padrão */
+		padding-left: 20px;
+		/* Ajusta o espaço à esquerda */
+		margin: 0px 0;
+		/* Adiciona espaçamento acima e abaixo da lista */
+	}
+
+	li {
+		margin-bottom: 0px;
+		/* Reduz o espaço entre itens da lista */
+		font-size: clamp(0.8em, 2vw, 1em);
+		/* Itens da lista também têm fonte responsiva */
+	}
+
+	/* Estilos para Containers */
+	.code-container {
+		border-radius: 10px;
+		width: 90%;
+		margin: 10px auto;
+		padding: 5px;
+		overflow-x: auto;
+	}
+
+	.container2,
+	.container3 {
+		font-family: 'Verdana', sans-serif;
+		/* Alternativa moderna à 'Tahoma' */
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+		max-width: 90%;
+		/* Garante que os containers respeitem a largura máxima */
+		margin: 0 auto;
+		/* Centraliza os containers */
+		padding: 1%;
+		/* Adiciona espaçamento interno */
+		line-height: 0 .6;
+		/* Melhora a legibilidade do texto */
+	}
+
+	.container4 {
+		max-width: 80%;
+		margin: 20px auto;
+		padding: 20px;
+		border-radius: 8px;
+		font-size: clamp(12px, 4vw, 40px);
+		/* Ajuste dinâmico da fonte */
+	}
+
+	/* Estilo do Formulário */
+	.form-container {
+		padding: 20px;
+		border-radius: 8px;
+	}
+
+	.form-field {
+		margin-bottom: 20px;
+	}
+
+	.form-field label {
+		display: block;
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+
+	.form-field input,
+	.form-field textarea {
+		font-family: 'Arial', sans-serif;
+		width: 100%;
+		padding: 10px;
+		border-radius: 5px;
+		font-size: 110%;
+	}
+
+	/* Estilo do Rodapé */
+	footer {
+		text-align: center;
+		margin-top: 20px;
+		padding: 10px;
+		border-radius: 4px;
+		width: 90%;
+		margin: 20px auto;
+		font-size: 80%;
+	}
+}

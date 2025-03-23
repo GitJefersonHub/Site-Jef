@@ -97,7 +97,7 @@ button.addEventListener('click', () => {
 const confirmacao = confirm(` ${i}. Deseja continuar?`); // Confirmação antes de prosseguir. 
 if (confirmacao) { 
 const numeroWhatsApp = "62981208278"; // Número de WhatsApp para envio. 
-const mensagem = `Olá! Escolhi o número ${i} na rifa.`; // Mensagem a ser enviada. 
+const mensagem = `Olá! Escolhi o número ${i} na rifa projeto rifa.`; // Mensagem a ser enviada. 
 const url = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`; 
 window.open(url, '_blank'); // Abre a URL do WhatsApp em nova aba. 
 modificarNumeroConfirmado(i, `aguardando confirmação ${i}`); // Marca o número como aguardando confirmação. 

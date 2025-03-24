@@ -4,18 +4,7 @@ let valorArrecadado = 0; // Inicializa o valor total arrecadado.
  
 // Lista de números confirmados com nomes 
 let numerosConfirmados = {
-    9: "xxx", 10: "Bernardo", 11: "Josiane", 12: "José Maria", 13: "xxx", 14: "Otávio", 15: "Flavio", 16: "Geremias",
-
-    17: "Carlos", 18: "Joana Dark", 19: "Denis", 20: "Cristiano", 21: "Jef", 22: "Cris",23: "xxx", 24: "Maria", 
-
-    25: "xxx", 26: "Socorro", 27: "xxx", 28: "Cris", 29: "xxx", 30: "Maria", 31: "Jef", 32: "Cris",
-
-    33: "xxx", 34: "Maria", 35: "Escofiled", 36: "Sebastião", 37: "Jef", 38: "Cris", 39: "xxx", 40: "Maria",
-
-    41: "João", 42: "Maria", 43: "Jef", 44: "Cris", 45: "xxx", 46: "José", 47: "xxx", 48: "Ana",
-
-    49: "xxx", 50: "Bernardo", 51: "Josiane", 52: "José Maria", 53: "xxx", 54: "Otávio", 55: "Flavio", 56: "Geremias",
-
+    9: "xxx"
 }; // Objeto para armazenar números e seus respectivos nomes. 
  
 // Atualiza os valores exibidos na página e calcula os ganhos 
@@ -96,8 +85,8 @@ button.disabled = numerosConfirmados.hasOwnProperty(i); // Desativa botão se o 
 button.addEventListener('click', () => { 
 const confirmacao = confirm(` ${i}. Deseja continuar?`); // Confirmação antes de prosseguir. 
 if (confirmacao) { 
-const numeroWhatsApp = "62981208278"; // Número de WhatsApp para envio. 
-const mensagem = `Olá! Escolhi o número ${i} na rifa projeto rifa.`; // Mensagem a ser enviada. 
+const numeroWhatsApp = "5562981208278"; // Número de WhatsApp para envio. 
+const mensagem = `Olá! Escolhi o número ${i} na rifa *Projeto rifa.*`; // Mensagem a ser enviada. 
 const url = `https://api.whatsapp.com/send?phone=${numeroWhatsApp}&text=${encodeURIComponent(mensagem)}`; 
 window.open(url, '_blank'); // Abre a URL do WhatsApp em nova aba. 
 modificarNumeroConfirmado(i, `aguardando confirmação ${i}`); // Marca o número como aguardando confirmação. 

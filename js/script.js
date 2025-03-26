@@ -84,8 +84,8 @@ for (let i = 1; i <= 104; i++) { // Loop para criar botões de 1 a 104.
     // Adiciona um evento de clique ao botão 
     button.addEventListener('click', () => { 
 
-        //alert('Programa parado'); // Pausa a seleção de números.
-        const confirmacao = confirm(` ${i}. Deseja continuar?`); // Pausa o envio da mensagem. 
+        alert('Programa parado'); // Pausa a seleção de números.
+        //const confirmacao = confirm(` ${i}. Deseja continuar?`); // Pausa o envio da mensagem. 
 
         if (confirmacao) { 
             const numeroWhatsApp = "5562981208278"; // Número de WhatsApp para envio. 
